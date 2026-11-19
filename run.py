@@ -258,12 +258,17 @@ def result_html(result):
     close_matches = [item for item in reference_matches if item["similarity"] > 0.60]
 
     reference_annotation = ""
+    consensus_notice = ""
     if cid == "2349":
         reference_annotation = (
-            f'<p><strong>PubChem annotation:</strong> '
-            f'<a href="{PUBCHEM}/compound/2349">Penicillins</a> are an antibiotic class. '
-            'The classifier table shows the model output for CID 2349.</p>'
+            f'<p><strong>Known classification: antibiotic class (Penicillins).</strong> '
+            f'<a href="{PUBCHEM}/compound/2349">PubChem reference for CID 2349</a>.</p>'
         )
+        if result["consensus"]["prediction"] == "Non-antibiotic":
+            consensus_notice = (
+                "<p><strong>Model disagreement:</strong> The classifier consensus "
+                "for CID 2349 disagrees with the PubChem antibiotic-class annotation.</p>"
+            )
     stereo_notice = ""
     if result["descriptors"]["uasc"] or result["descriptors"]["ubsc"]:
         candidates = [
@@ -299,6 +304,7 @@ def result_html(result):
     score_header = "<th>Prediction</th><th>Positive score</th><th>Negative score</th>"
     return f"""
 <section><h2>Input compound details</h2>
+{reference_annotation}
 <table class="compound"><thead><tr><th>PubChem CID</th><th>Structure</th><th>Synonyms</th></tr></thead>
 <tbody><tr><td><a href="{result['pubchem_url']}">{cid}</a><p>{formula}</p></td>
 <td><a href="{structure}"><img src="{structure}" alt="Structure for PubChem CID {cid}" width="280" height="280"></a></td>
@@ -311,10 +317,10 @@ For Pfizer 3/75, “Followed” means the risk flag is triggered.</p>
 <table><thead><tr><th>Rule</th><th>Values used</th><th>Criteria</th><th>Result</th></tr></thead>
 <tbody>{''.join(checks)}</tbody></table></section>
 <section><h2>Predictions by classifier</h2>
-{reference_annotation}
 {stereo_notice}
 <table><thead><tr><th>Classifier</th>{score_header}</tr></thead><tbody>{rows}</tbody></table></section>
 <section><h2>Consensus prediction</h2>
+{consensus_notice}
 <table><thead><tr><th>Method</th>{score_header}</tr></thead><tbody>{consensus}</tbody></table></section>
 <section><h2>Similar antimicrobial compounds</h2>
 <p>Tanimoto scores above 0.60</p>
