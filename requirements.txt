@@ -1,0 +1,6 @@
+# CPython 3.8, x86_64. The pickle formats depend on their original ML versions.
+numpy==1.23.5
+scipy==1.10.1
+scikit-learn==0.23.2
+xgboost==1.2.0
+pubchempy==1.0.4

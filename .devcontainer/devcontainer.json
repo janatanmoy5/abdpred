@@ -1,0 +1,15 @@
+{
+  "name": "ABDpred",
+  "build": {
+    "dockerfile": "../Dockerfile",
+    "context": ".."
+  },
+  "overrideCommand": true,
+  "forwardPorts": [8765],
+  "portsAttributes": {
+    "8765": {
+      "label": "ABDpred",
+      "onAutoForward": "openBrowser"
+    }
+  }
+}

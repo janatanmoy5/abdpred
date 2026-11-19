@@ -1,0 +1,41 @@
+cff-version: 1.2.0
+message: "If you use ABDpred, please cite the original article."
+title: "ABDpred"
+type: software
+authors:
+  - family-names: Jana
+    given-names: Tanmoy
+  - family-names: Sarkar
+    given-names: Debasree
+  - family-names: Ganguli
+    given-names: Debayan
+  - family-names: Mukherjee
+    given-names: Sandip Kumar
+  - family-names: Mandal
+    given-names: Rahul Shubhra
+  - family-names: Das
+    given-names: Santasabuj
+preferred-citation:
+  type: article
+  title: "ABDpred: Prediction of active antimicrobial compounds using supervised machine learning techniques"
+  authors:
+    - family-names: Jana
+      given-names: Tanmoy
+    - family-names: Sarkar
+      given-names: Debasree
+    - family-names: Ganguli
+      given-names: Debayan
+    - family-names: Mukherjee
+      given-names: Sandip Kumar
+    - family-names: Mandal
+      given-names: Rahul Shubhra
+    - family-names: Das
+      given-names: Santasabuj
+  journal: Indian Journal of Medical Research
+  year: 2024
+  volume: 159
+  issue: 1
+  start: 78
+  end: 90
+  doi: 10.4103/ijmr.ijmr_1832_22
+  url: "https://pubmed.ncbi.nlm.nih.gov/38345040/"

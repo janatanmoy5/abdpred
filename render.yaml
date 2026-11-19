@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: abdpred
+    runtime: docker
+    plan: free
+    healthCheckPath: /healthz
