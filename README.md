@@ -1,5 +1,11 @@
 # ABDpred
 
+## Live web app
+
+[Open ABDpred on Render](https://abdpred.onrender.com/). Enter PubChem CID
+`45267103` (Gramicidin D) and select **Predict** to try the example from the
+published paper. The consensus score is approximately 0.78.
+
 ABDpred uses 17 PubChem compound descriptors to classify a compound as
 antibiotic or non-antibiotic. The local browser app reports the predictions
 from XGBoost, Random Forest, Gradient Boosting and the neural network, along
