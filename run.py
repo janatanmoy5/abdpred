@@ -257,6 +257,13 @@ def result_html(result):
     reference_matches = result["similarity_matches"]
     close_matches = [item for item in reference_matches if item["similarity"] > 0.60]
 
+    reference_annotation = ""
+    if cid == "2349":
+        reference_annotation = (
+            f'<p><strong>PubChem annotation:</strong> '
+            f'<a href="{PUBCHEM}/compound/2349">Penicillins</a> are an antibiotic class. '
+            'The classifier table shows the model output for CID 2349.</p>'
+        )
     stereo_notice = ""
     if result["descriptors"]["uasc"] or result["descriptors"]["ubsc"]:
         candidates = [
@@ -304,6 +311,7 @@ For Pfizer 3/75, “Followed” means the risk flag is triggered.</p>
 <table><thead><tr><th>Rule</th><th>Values used</th><th>Criteria</th><th>Result</th></tr></thead>
 <tbody>{''.join(checks)}</tbody></table></section>
 <section><h2>Predictions by classifier</h2>
+{reference_annotation}
 {stereo_notice}
 <table><thead><tr><th>Classifier</th>{score_header}</tr></thead><tbody>{rows}</tbody></table></section>
 <section><h2>Consensus prediction</h2>
