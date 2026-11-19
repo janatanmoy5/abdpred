@@ -31,7 +31,7 @@ jobs:
         run: |
           docker run -d --name abdpred -e PORT=10000 -p 127.0.0.1:8765:10000 abdpred
           trap 'docker logs abdpred; docker rm -f abdpred' EXIT
-          curl --fail --silent --show-error --retry 15 --retry-connrefused --retry-delay 1 \
+          curl --fail --silent --show-error --retry 15 --retry-connrefused --retry-all-errors --retry-delay 1 --max-time 5 \
             http://127.0.0.1:8765/healthz -o health.txt
           grep -qx ok health.txt
           curl --fail --silent --show-error http://127.0.0.1:8765/ -o page.html
