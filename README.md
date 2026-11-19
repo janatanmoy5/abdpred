@@ -7,28 +7,21 @@ documentation, and worked example are available in the
 
 ## Live web app
 
-[Open ABDpred on Render](https://abdpred.onrender.com/). Enter PubChem CID
-`45267103` (Gramicidin D) and select **Predict** to try the example from the
-published paper. The consensus score is approximately 0.78.
+[Open ABDpred on Render](https://abdpred.onrender.com/). The form opens with
+**Chemical name or synonym** selected and `benzylpenicillin` prefilled. Select
+**Predict** to look up Benzylpenicillin (PubChem CID `5904`) and see its
+consensus prediction.
 
-[View the complete example output (PDF)](examples/ABDpred.pdf).
+| Method | Prediction | Positiveness (Positive Score) | Negativeness (Negative Score) |
+| --- | --- | ---: | ---: |
+| Soft vote | Antibiotic | 0.72 | 0.28 |
 
-ABDpred uses 17 PubChem compound descriptors to classify a compound as
-antibiotic or non-antibiotic. The local browser app reports the predictions
-from XGBoost, Random Forest, Gradient Boosting and the neural network, along
-with a soft-vote consensus, drug-likeness checks and Tanimoto similarities to
-the original reference set.
+The **Search by** menu also accepts a **PubChem CID** or **SMILES**. If a search
+returns multiple PubChem records, enter the CID you intend to use.
 
-The archived PHP form in `index.php` submitted to `prediction_result1.php`.
-That page called the model scripts, drug-likeness checks and similarity search.
-`prediction_result.php` was another prediction page. The source folder did
-not contain `proces.php`. The Python app uses the original model artifacts
-and reference fingerprints copied from that archive.
-
-The web app defaults to **Chemical name or synonym** and starts with
-`benzylpenicillin`. Click **Predict** to try it. You can also choose
-**PubChem CID** or **SMILES** under **Search by** and enter your own input. Name and SMILES lookups resolve to PubChem CIDs before
-prediction. If PubChem returns multiple records, enter the CID you intend to use.
+To reproduce the example from the published paper, select **PubChem CID**, enter
+`45267103` (Gramicidin D), and select **Predict**. The consensus positiveness
+score is approximately 0.78. [View the complete example output (PDF)](examples/ABDpred.pdf).
 
 ## Cite ABDpred
 

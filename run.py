@@ -337,7 +337,7 @@ def result_html(result):
     structure = escape(result["structure_url"], quote=True)
     name = escape(result["iupac_name"] or f"CID {cid}")
     formula = escape(result["molecular_formula"] or "")
-    score_header = "<th>Prediction</th><th>Positive score</th><th>Negative score</th>"
+    score_header = "<th>Prediction</th><th>Positiveness (Positive Score)</th><th>Negativeness (Negative Score)</th>"
     return f"""
 <section><h2>Input compound details</h2>
 {reference_annotation}
