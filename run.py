@@ -160,10 +160,14 @@ COMPARISON_LABELS = {le: "≤", lt: "<", gt: ">"}
 def druglikeness(properties):
     results = {}
     for name, criteria in RULES.items():
-        values = [properties[key] for key, _, _ in criteria]
-        results[name] = None if any(value is None for value in values) else all(
-            compare(value, limit) for value, (_, compare, limit) in zip(values, criteria)
-        )
+        checks = [
+            None if properties[key] is None else compare(properties[key], limit)
+            for key, compare, limit in criteria
+        ]
+        if False in checks:
+            results[name] = False
+        else:
+            results[name] = None if None in checks else True
     return results
 
 
