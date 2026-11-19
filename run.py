@@ -241,12 +241,10 @@ def result_html(result):
     rows = "".join(prediction_row(name, item) for name, item in result["models"].items())
     consensus = prediction_row("Soft vote", result["consensus"])
     checks = []
+    verdict = {True: "Followed", False: "Not Followed", None: "Unavailable"}
     properties = result["physicochemical_properties"]
     for name, criteria in RULES.items():
         passed = result["druglikeness"][name]
-        verdict = {True: "Meets criteria", False: "Does not meet criteria", None: "Unavailable"}
-        if name == "Pfizer 3/75 risk flag":
-            verdict = {True: "Flagged", False: "Not flagged", None: "Unavailable"}
         observed = []
         thresholds = []
         for key, compare, limit in criteria:
@@ -292,7 +290,8 @@ def result_html(result):
 <details><summary>IUPAC name and model descriptors</summary><p>{name}</p><table>{descriptor_rows}</table></details>
 </section>
 <section><h2>Drug-likeness and bioavailability profile</h2>
-<p>Screening rules use PubChem properties. XLogP is the logP estimate used for these thresholds.</p>
+<p>Screening rules use PubChem properties. XLogP is the logP estimate used for these thresholds.
+For Pfizer 3/75, “Followed” means the risk flag is triggered.</p>
 <table><thead><tr><th>Rule</th><th>PubChem values</th><th>Criteria</th><th>Result</th></tr></thead>
 <tbody>{''.join(checks)}</tbody></table></section>
 <section><h2>Predictions by classifier</h2>
