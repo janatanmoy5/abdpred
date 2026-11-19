@@ -1,5 +1,10 @@
 # ABDpred
 
+The original web server URL listed in the publication was
+`http://clinicalmedicinessd.com.in/abdpred/`. The updated source code,
+documentation, and worked example are available in the
+[ABDpred GitHub repository](https://github.com/janatanmoy5/abdpred).
+
 ## Live web app
 
 [Open ABDpred on Render](https://abdpred.onrender.com/). Enter PubChem CID
