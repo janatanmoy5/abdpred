@@ -15,7 +15,7 @@ import re
 import sys
 from threading import Lock
 from urllib.error import HTTPError
-from urllib.parse import parse_qs
+from urllib.parse import parse_qs, quote, urlencode
 from urllib.request import urlopen
 import webbrowser
 
@@ -162,6 +162,42 @@ def druglikeness(properties):
         name: all(compare(properties[key], limit) for key, compare, limit in criteria)
         for name, criteria in RULES.items()
     }
+
+
+def resolve_compound(query, search_type):
+    if search_type not in ("cid", "name", "smiles"):
+        raise ValueError("Choose a PubChem search type.")
+    if not query or len(query) > 2048:
+        raise ValueError("Enter a PubChem CID, chemical name, or SMILES (up to 2048 characters).")
+    if search_type == "cid":
+        if not re.fullmatch(r"[1-9][0-9]{0,11}", query):
+            raise ValueError("Enter a positive numeric PubChem CID.")
+        return query
+
+    endpoint = f"{PUBCHEM}/rest/pug/compound/{search_type}"
+    if search_type == "name":
+        url = f"{endpoint}/{quote(query, safe='')}/cids/JSON"
+        request_body = None
+    else:
+        url = f"{endpoint}/cids/JSON"
+        request_body = urlencode({"smiles": query}).encode("ascii")
+    try:
+        with urlopen(url, data=request_body, timeout=20) as response:
+            matches = json.load(response).get("IdentifierList", {}).get("CID", [])
+    except HTTPError as exc:
+        if exc.code == 400 and search_type == "smiles":
+            raise ValueError("PubChem could not parse that SMILES string.") from None
+        if exc.code != 404:
+            raise
+        matches = []
+    matches = list(dict.fromkeys(str(cid) for cid in matches))
+    if not matches:
+        raise ValueError("PubChem found no matching compound. Check the input or try a CID.")
+    if len(matches) > 1:
+        choices = ", ".join(matches[:10])
+        raise ValueError(f"PubChem returned {len(matches)} records. Select PubChem CID and enter "
+                         f"the exact record you want. Matching CIDs include {choices}.")
+    return matches[0]
 
 
 def predict_cid(cid):
@@ -348,23 +384,34 @@ class PredictionPage(BaseHTTPRequestHandler):
         if self.path != "/":
             self.send_error(404)
             return
-        cid = ""
+        query = ""
+        search_type = "cid"
         try:
             length = int(self.headers.get("Content-Length", "0"))
-            if not 0 < length <= 1024:
-                raise ValueError("Enter a single PubChem CID.")
+            if not 0 < length <= 32768:
+                raise ValueError("Enter one PubChem CID, name, or SMILES.")
             fields = parse_qs(self.rfile.read(length).decode("utf-8"))
-            cid = fields.get("cid", [""])[0].strip()
-            self.show_page(result_html(predict_cid(cid)), cid=cid)
+            if "cid" in fields:
+                query = fields["cid"][0].strip()
+            else:
+                query = fields.get("query", [""])[0].strip()
+                search_type = fields.get("search_type", ["cid"])[0]
+            result = predict_cid(resolve_compound(query, search_type))
+            self.show_page(result_html(result), query=query, search_type=search_type)
         except (ValueError, OSError) as exc:
-            self.show_page(f'<p role="alert">{escape(str(exc))}</p>', 400, cid=cid)
+            self.show_page(f'<p role="alert">{escape(str(exc))}</p>', 400, query=query, search_type=search_type)
         except Exception:
             import traceback
 
             traceback.print_exc()
             self.show_page('<p role="alert">Prediction failed. See the terminal for details.</p>', 500)
 
-    def show_page(self, content="", status=200, cid=""):
+    def show_page(self, content="", status=200, query="", search_type="cid"):
+        search_options = "".join(
+            f'<option value="{value}"{" selected" if search_type == value else ""}>{label}</option>'
+            for value, label in (("cid", "PubChem CID"), ("name", "Chemical name or synonym"),
+                                 ("smiles", "SMILES"))
+        )
         page = f"""<!doctype html>
 <html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>ABDpred</title>
@@ -374,8 +421,8 @@ body {{font: 16px system-ui, sans-serif; color:#193536; background:#f4f8f7;
 section, form, details {{background:white; border:1px solid #c9dcda;
                          border-radius:.75rem; padding:1rem; margin:1rem 0; overflow:auto}}
 h1 {{margin-bottom:.2rem}} h2 {{margin-top:0}} a {{color:#0b635b}}
-input,button {{font:inherit; padding:.55rem; margin:.3rem 0; border-radius:.35rem}}
-input {{border:1px solid #648883; max-width:100%}}
+input,select,button {{font:inherit; padding:.55rem; margin:.3rem 0; border-radius:.35rem}}
+input,select {{border:1px solid #648883; max-width:100%}}
 button {{border:1px solid #0b635b; background:#0b635b; color:white; cursor:pointer}}
 table {{border-collapse:collapse; width:100%; margin-top:.5rem}}
 th,td {{text-align:left; padding:.5rem; border-bottom:1px solid #dce7e6}}
@@ -387,9 +434,12 @@ summary {{cursor:pointer}} [role=alert] {{color:#932e25}}
 footer {{margin-top:2rem; padding-top:1rem; border-top:1px solid #c9dcda}}
 </style>
 <main><h1>ABDpred</h1><p>Antibiotic drug prediction from PubChem compound descriptors</p>
-<form method="post" action="/"><label for="cid">PubChem CID</label>
-<input id="cid" name="cid" inputmode="numeric" pattern="[1-9][0-9]{{0,11}}"
-       maxlength="12" placeholder="e.g. 45267103" value="{escape(cid, quote=True)}" required>
+<form method="post" action="/">
+<label for="search-type">Search by</label>
+<select id="search-type" name="search_type">{search_options}</select>
+<label for="compound-query">Compound</label>
+<input id="compound-query" name="query" maxlength="2048"
+       placeholder="Enter a CID, name, or SMILES" value="{escape(query, quote=True)}" required>
 <button>Predict</button></form>{content}</main>
 <footer aria-labelledby="citation"><h2 id="citation">Cite ABDpred</h2>
 <p>Jana T, Sarkar D, Ganguli D, Mukherjee SK, Mandal RS, Das S.
