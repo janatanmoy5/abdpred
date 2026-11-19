@@ -1,0 +1,391 @@
+DRUG,DRUG DESCRIPTION,CID, mw, xlogp3, hbdc, hdac, rbc, exact_mass, mono_mass, tpsa, hac, charge, complex,isc, dasc, uasc, dbsc, ubsc, cbu
+Gramicidin D,A bactericidal antibiotic used in the treatment of dermatological and ophthalmic infections.,45267103,1811.2,10.9,20,16,50,1811.036774,1810.033419,520,131,0,3790,0,13,0,0,0,1
+Erythromycin,A macrolide antibiotic used to treat and prevent a variety of bacterial infections.,12560,733.9,2.7,5,14,7,733.4612412,733.4612412,194,51,0,1180,0,18,0,0,0,1
+Cycloserine,A broad-spectrum antibiotic used in the treatment of tuberculosis and certain urinary tract infections (UTI).,6234,102.09,-1.5,2,3,0,102.0429274,102.0429274,64.4,7,0,92.9,0,1,0,0,0,1
+Capreomycin,An aminoglycoside antibiotic used as an adjunct drug in tuberculosis.,135483770,1321.4, None ,27,23,19,1320.698394,1320.698394,737,93,0,2470,0,12,0,2,0,2
+Oxytetracycline,A tetracycline antibiotic used to treat a wide variety of susceptible bacterial infections.,54675779,460.4,-1.6,7,10,2,460.1481804,460.1481804,202,33,0,1000,0,6,0,0,0,1
+Rifabutin,An antibiotic used to treat mycobacterium avium complex disease in patients with HIV.,135398743,847,4.7,5,14,5,846.4415088,846.4415088,209,61,0,2110,0,9,0,3,0,1
+Bacitracin,"A cyclic polypeptide antibiotic used to prevent wound infections, treat pneumonia and empyema in infants, and to treat skin and eye infections.",24848131,2044.8, None ,27,36,56,2042.01475,2042.01475,843,138,0,3310,0,6,13,0,0,4
+Benzylpenicillin,"A penicillin used for the treatment of infections caused by gram-positive cocci, in particular streptococcal infections. This form of penicillin is typically used in intravenous or long-acting injectable formulations due to poor oral absorption.",5904,334.4,1.8,2,5,4,334.0987282,334.0987282,112,23,0,530,0,3,0,0,0,1
+Streptomycin,An aminoglycoside antibiotic indicated to treat mycobacterium tuberculosis and various non-tuberculosis infections.,19649,581.6,-8,12,15,9,581.2656697,581.2656697,336,40,0,940,0,15,0,0,0,1
+Candicidin,Used in the topical treatment of vulvovaginal candidiasis.,6445669,1109.3,1.8,11,20,10,1108.571914,1108.571914,364,79,0,2130,0,0,17,7,0,1
+Rifapentine,An antibiotic agent used in the treatment of pulmonary tuberculosis.,135403821,877,6.7,6,15,6,876.4520735,876.4520735,220,63,0,1730,0,9,0,4,0,1
+Paromomycin,"An aminoglycoside antibiotic used in the treatment of acute and chronic intestinal amebiasis, and as an adjunct for the management of hepatic coma.",165580,615.6,-8.7,13,19,9,615.2963012,615.2963012,347,42,0,870,0,19,0,0,0,1
+Fusidic acid,A topical antibacterial agent used to prevent and treat mild to moderate skin infections caused by susceptible bacteria.,3000226,516.7,5.5,3,6,6,516.3450893,516.3450893,104,37,0,994,0,10,0,1,0,1
+Dihydrostreptomycin,Dihydrostreptomycin is an antibiotic.,439369,583.6,-8.2,13,15,9,583.2813198,583.2813198,340,40,0,911,0,15,0,0,0,1
+Micronomicin,"Micronomicin is an aminoglycoside antibiotic which is marketed in Japan, and sold under the brand names Sagamicin and Luxomicina.",3037206,463.6,-4.5,8,12,7,463.3005987,463.3005987,200,32,0,607,0,12,0,0,0,1
+Tyrothricin,A topical antibiotic with broad spectrum activity against Gram positive bacteria and some fungal infections.,452550,1228.4,1.9,12,15,19,1227.632832,1227.632832,380,89,0,2390,0,10,0,0,0,1
+Carfecillin,Not Annotated,33672,454.5,3,2,7,7,454.1198576,454.1198576,138,32,0,774,0,3,1,0,0,1
+Mepartricin,Not Annotated,56842231,1141.3,3.7,12,21,12,1140.598129,1140.598129,355,81,0,2140,0,4,15,7,0,1
+Neomycin,An aminoglycoside antibiotic agent used orally and topically to treat a wide variety of infections in the body.,8378,614.6,-9,13,19,9,614.3122856,614.3122856,353,42,0,872,0,19,0,0,0,1
+Azithromycin,A macrolide antibiotic used to treat a variety of bacterial infections.,447043,749,4,5,14,7,748.5085258,748.5085258,180,52,0,1150,0,18,0,0,0,1
+Moxifloxacin,A fluoroquinolone antibiotic used to treat various bacterial infections.,152946,401.4,0.6,2,8,4,401.1750844,401.1750844,82.1,29,0,727,0,2,0,0,0,1
+Mupirocin,An antibacterial ointment used to treat impetigo and secondary skin infections caused by Staphylococcus aureus and Streptococcus pyogenes.,446596,500.6,3,4,9,17,500.298533,500.298533,146,35,0,694,0,8,0,1,0,1
+Chloramphenicol,A broad spectrum antibiotic that is effective against a variety of susceptible and serious bacterial infections but is not frequently used because of its high risk of bone marrow toxicity.,5959,323.13,1.1,3,5,5,322.0123269,322.0123269,115,20,0,342,0,2,0,0,0,1
+Ciprofloxacin,A second generation fluoroquinolone used to treat various susceptible bacterial infections.,2764,331.34,-1.1,2,7,3,331.1332196,331.1332196,72.9,24,0,571,0,0,0,0,0,1
+Tobramycin,"An aminoglycoside antibiotic used to treat cystic fibrosis, lung infections, eye infections, and a variety of other infections.",36294,467.5,-6.2,10,14,6,467.2591278,467.2591278,268,32,0,609,0,14,0,0,0,1
+Tetracycline,An antibiotic used to treat a wide variety of susceptible infections.,54675776,444.4,-2,6,9,2,444.1532657,444.1532657,182,32,0,971,0,5,0,0,0,1
+Gentamicin,An aminoglycoside used to treat a wide variety of infections in the body.,3467,477.6,-4.1,8,12,7,477.3162488,477.3162488,200,33,0,636,0,0,13,0,0,1
+Minocycline,A tetracycline analog used to treat a wide variety of infections in the body.,54675783,457.5,-0.6,5,9,3,457.1849002,457.1849002,165,33,0,971,0,4,0,0,0,1
+Gatifloxacin,A fourth generation fluoroquinolone used to treat a wide variety of infections in the body.,5379,375.4,-0.7,2,8,4,375.1594344,375.1594344,82.1,27,0,653,0,0,1,0,0,1
+Norfloxacin,A broad-spectrum fluoroquinolone antibiotic with variable activity against gram-positive and gram-negative bacteria. Typically reserved for the treatment of UTIs due to accumulation in the urine.,4539,319.33,-1,2,7,3,319.1332196,319.1332196,72.9,23,0,519,0,0,0,0,0,1
+Ofloxacin,"An antibacterial agent used for the treatment of bacterial infections in many parts of the body, including the respiratory tract, kidney, skin, soft tissue, and urinary tract.",4583,361.4,-0.4,1,8,2,361.1437843,361.1437843,73.3,26,0,634,0,0,1,0,0,1
+Clindamycin,"A lincosamide antibiotic used to treat serious infections caused by susceptible anaerobic, streptococcal, staphylococcal, and pneumococcal bacteria.",446598,425,2.2,4,7,7,424.179871,424.179871,128,27,0,502,0,9,0,0,0,1
+Kanamycin,An aminoglycoside antibiotic agent used in the treatment of various infections caused by susceptible bacteria.,6032,484.5,-6.9,11,15,6,484.238058,484.238058,283,33,0,638,0,15,0,0,0,1
+Amphotericin B,"An antifungal used to treat fungal infections in neutropenic patients, cryptococcal meningitis in HIV infection, fungal infections, and leishmaniasis.",5280965,924.1,0,12,18,3,923.4878499,923.4878499,320,65,0,1670,0,19,0,7,0,1
+Natamycin,A macrolide antifungal used to treat fungal infections of the eye.,5284447,665.7,-1.3,7,14,3,665.3047406,665.3047406,231,47,0,1220,0,14,0,5,0,1
+Daptomycin,A cyclic lipopeptide antibiotic used to treat complicated skin infections and bacteremia due to Staphylococcus aureus.,16134395,1620.7,-5.1,22,28,35,1619.710366,1619.710366,702,115,0,3480,0,13,0,0,0,1
+Cefotiam,For treatment of severe infections caused by susceptible bacteria.,43708,525.6,-2.4,3,13,10,525.1035138,525.1035138,251,34,0,848,0,2,0,0,0,1
+Aminosalicylic acid,An aminosalicylate drug used to induce remission in ulcerative colitis.,4649,153.14,1.3,3,4,1,153.0425931,153.0425931,83.6,11,0,160,0,0,0,0,0,1
+Dapsone,"A sulfone drug used to treat acne vulgaris, Hansen's disease, and dermatitis herpetiformis.",2955,248.3,1,2,4,2,248.0619488,248.0619488,94.6,17,0,306,0,0,0,0,0,1
+Sulfanilamide,A sulfonamide anti-infective used to treat vulvovaginal candidiasis caused by Candida albicans.,5333,172.21,-0.6,2,4,1,172.0306487,172.0306487,94.6,11,0,211,0,0,0,0,0,1
+Cefmenoxime,Used to treat female gynecologic and obstetric infections caused by susceptible aerobic (including the gonococcus) and anaerobic bacteria.,9570757,511.6,0,3,14,8,511.0514782,511.0514782,270,33,0,890,0,2,0,1,0,1
+Cefmetazole,For the treatment of infections caused by susceptible organisms.,42008,471.5,-0.6,2,12,9,471.0453302,471.0453302,239,30,0,818,0,2,0,0,0,1
+Flucloxacillin,"A narrow spectrum penicillin antibiotic that exerts specific activity against Gram positive organisms in skin and soft tissue infections, except those caused by methicillin resistant staphylococcus aureus (MRSA).",21319,453.9,2.6,2,8,4,453.0561477,453.0561477,138,30,0,758,0,3,0,0,0,1
+Ertapenem,A carbapenem antibiotic used for the treatment of moderate to severe bacterial infections caused by specific sensitive organisms.,150610,475.5,-1.5,5,9,7,475.1413213,475.1413213,182,33,0,893,0,6,0,0,0,1
+Piperacillin,"A penicillin antibiotic combined with tazobactam to treat piperacillin-resistant, piperacillin/tazobactam­ susceptible, β-lactamase generating strains of several bacteria.",43672,517.6,0.5,3,8,6,517.1631194,517.1631194,182,36,0,982,0,4,0,0,0,1
+Ethambutol,An antituberculosis agent used in the prophylaxis and treatment of tuberculosis (TB).,14052,204.31,-0.1,4,4,9,204.183778,204.183778,64.5,14,0,109,0,2,0,0,0,1
+Pyrazinamide,An antituberculosis agent used as a component of tuberculosis (TB) treatment.,1046,123.11,-0.6,1,3,1,123.0432618,123.0432618,68.9,9,0,115,0,0,0,0,0,1
+Aztreonam,A beta-lactam antibiotic used to treat select aztreonam sensitive gram negative bacteria.,5742832,435.4,0.3,4,12,7,435.0518549,435.0518549,238,28,0,808,0,2,0,1,0,1
+Grepafloxacin,A fluoroquinolone antibiotic used to treat various gram positive and gram negative bacterial infections.,72474,359.4,-0.2,2,7,3,359.1645197,359.1645197,72.9,26,0,636,0,0,1,0,0,1
+Ampicillin,A penicillin derivative used for the treatment of a variety of infections caused by gram-positive and gram-negative bacteria as well as some anaerobes.,6249,349.4,-1.1,3,6,4,349.1096273,349.1096273,138,24,0,562,0,4,0,0,0,1
+Phenoxymethylpenicillin,"A penicillin antibiotic used to prevent and treat mild to moderately severe infections in the respiratory tract, skin, and soft tissues.",6869,350.4,2.1,2,6,5,350.0936429,350.0936429,121,24,0,547,0,3,0,0,0,1
+Cefpiramide,For treatment of severe infections caused by susceptible bacteria such as P. aeruginosa.,636405,612.6,-0.1,5,13,9,612.1209375,612.1209375,259,42,0,1270,0,3,0,0,0,1
+Ceftazidime,"An injected broad spectrum beta-lactam antibiotic used to treat or prevent a variety of bacterial infections, including pneumonia, gynecological infections, bone and joint infections, and septicemia, among others.",5481173,546.6,0.4,3,12,8,546.0991394,546.0991394,245,37,0,1020,0,2,0,1,0,1
+Loracarbef,"Used to treat upper respiratory tract bacterial infections, chronic bronchitis, pneumonia, sinusitis, pharyntitis and tonsillitis, skin absceses, urinary tract infections and pyelonephritis caused by E. coli, S. pyogenes, S. aureus,...",5284585,349.77,-1.7,3,5,4,349.0829337,349.0829337,113,24,0,600,0,3,0,0,0,1
+Enoxacin,For the treatment of adults (≥18 years of age) with the following infections caused by susceptible strains of the designated microorganisms: (1) uncomplicated urethral or cervical gonorrhea due to Neisseria...,3229,320.32,-0.2,2,8,3,320.1284686,320.1284686,85.8,23,0,521,0,0,0,0,0,1
+Amikacin,An aminoglycoside used to treat infections caused by more resistant strains of Gram negative bacteria and some Gram positive bacteria.,37768,585.6,-7.9,13,17,10,585.2857365,585.2857365,332,40,0,819,0,16,0,0,0,1
+Dicloxacillin,A penicillin used to treat penicillinase-producing bacterial infections that are susceptible to the drug.,18381,470.3,2.9,2,7,4,469.0265972,469.0265972,138,30,0,746,0,3,0,0,0,1
+Pefloxacin,For the treatment of uncomplicated gonococcal urethritis in males and for gram-negative-bacterial infections in the gastrointestinal system and the genitourinary tract.,51081,333.36,0.3,1,7,3,333.1488697,333.1488697,64.1,24,0,545,0,0,0,0,0,1
+Cefotaxime,A third generation cephalosporin used to treat susceptible Gram negative and Gram positive bacterial infections.,5742673,455.5,-1.4,3,12,8,455.0569403,455.0569403,227,30,0,833,0,2,0,1,0,1
+Vancomycin,A glycopeptide antibiotic used to treat severe but susceptible bacterial infections such as MRSA (methicillin-resistant Staphylococcus aureus) infections.,14969,1449.2,-2.6,19,26,13,1447.4302,1447.4302,531,101,0,2960,0,18,0,0,0,1
+Cefdinir,A third generation cephalosporin used to treat susceptible Gram negative and Gram positive bacterial infections.,6915944,395.4,0,4,10,5,395.0358109,395.0358109,212,26,0,739,0,2,0,1,0,1
+Cephalexin,A first generation cephalosporin used to treat certain susceptible bacterial infections.,27447,347.4,0.6,3,6,4,347.0939772,347.0939772,138,24,0,600,0,3,0,0,0,1
+Carbenicillin,For the treatment of acute and chronic infections of the upper and lower urinary tract and in asymptomatic bacteriuria due to susceptible strains of bacteria.,20824,378.4,1.1,3,7,5,378.0885575,378.0885575,149,26,0,645,0,3,1,0,0,1
+Linezolid,An oxazolidinone antibiotic used to treat susceptible strains of multidrug resistant bacterial infections.,441401,337.35,0.7,1,6,4,337.1437843,337.1437843,71.1,24,0,472,0,1,0,0,0,1
+Nafcillin,A penicillin derivative antibiotic used to treat susceptible staphylococcal infections.,8982,414.5,2.9,2,6,5,414.124943,414.124943,121,29,0,699,0,3,0,0,0,1
+Ethionamide,A second line antitubercular agent used to treat tuberculosis when other treatments have failed.,2761171,166.25,1.1,1,2,2,166.0564695,166.0564695,71,11,0,147,0,0,0,0,0,1
+Cefixime,A third generation cephalosporin used to treat susceptible Gram negative and Gram positive bacterial infections.,5362065,453.5,-0.7,4,12,8,453.0412902,453.0412902,238,30,0,861,0,2,0,1,0,1
+Cephaloglycin,For treatment of severe infections caused by susceptible bacteria.,19150,405.4,-3,3,8,7,405.0994565,405.0994565,164,28,0,718,0,3,0,0,0,1
+Oxacillin,A penicillin antibiotic used to treat a number of susceptible bacterial infections.,6196,401.4,2.4,2,7,4,401.1045419,401.1045419,138,28,0,681,0,3,0,0,0,1
+Meropenem,A carbapenem antibiotic used to treat a wide variety of infections in the body.,441130,383.5,-2.4,3,7,5,383.1514921,383.1514921,136,26,0,679,0,6,0,0,0,1
+Clavulanic acid,A beta lactamase inhibitor used to enhance the effectiveness of beta lactam antibiotics.,5280980,199.16,-1.2,2,5,2,199.0480724,199.0480724,87.1,14,0,324,0,2,0,1,0,1
+Roxithromycin,"Used to treat respiratory tract, urinary and soft tissue infections.",6915744,837,3.1,5,17,13,836.5245698,836.5245698,217,58,0,1310,0,18,0,1,0,1
+Nalidixic acid,A quinolone antibiotic used to treat urinary tract infections.,4421,232.23,1.4,1,5,2,232.0847923,232.0847923,70.5,17,0,378,0,0,0,0,0,1
+Colistin,A polymyxin antibiotic used to treat bacterial infections caused by susceptible Gram negative bacteria.,5311054,1155.4,-3.3,18,18,28,1154.749927,1154.749927,491,81,0,2050,0,12,1,0,0,1
+Fosfomycin,A broad spectrum antibiotic used to treat uncomplicated urinary tract infections.,446987,138.06,-1.4,2,4,1,138.0081957,138.0081957,70.1,8,0,138,0,2,0,0,0,1
+Cefaclor,A second generation cephalosporin used to treat a wide variety of infections in the body.,51039,367.8,-1.8,3,6,4,367.0393548,367.0393548,138,24,0,606,0,3,0,0,0,1
+Clofazimine,A riminophenazine antimycobacterial used to treat leprosy.,2794,473.4,7.1,1,4,4,472.1221521,472.1221521,40,33,0,829,0,0,0,0,0,1
+Sirolimus,An immunosuppressant used to prevent organ transplant rejections and to treat lymphangioleiomyomatosis.,5284616,914.2,6,3,13,6,913.5551416,913.5551416,195,65,0,1760,0,15,0,4,0,1
+Spectinomycin,An aminocyclitol antibiotic used to treat susceptible strains of Neisseria gonorrhoeae.,15541,332.35,-3.1,5,9,2,332.1583511,332.1583511,130,23,0,478,0,9,0,0,0,1
+Ceforanide,For the treatment of infections caused by susceptible organisms.,43507,519.6,-3.2,4,12,10,519.0994738,519.0994738,244,35,0,905,0,2,0,0,0,1
+Mezlocillin,"Used to treat serious gram–negative infections of the lungs, urinary tract, and skin.",656511,539.6,-0.2,3,9,6,539.1144551,539.1144551,207,36,0,1080,0,4,0,0,0,1
+Dirithromycin,"For the treatment of the following mild-to-moderate infections caused by susceptible strains of microorganisms: acute bacterial exacerbations of chronic bronchitis, secondary bacterial infection of acute bronchitis, community-acquired pneumonia, pharyngitis/tonsilitis, and...",6473883,835.1,4.2,5,16,12,834.5453052,834.5453052,196,58,0,1300,0,20,0,0,0,1
+Netilmicin,An aminoglycoside used to treat a wide variety of infections in the body.,441306,475.6,-4.2,8,12,8,475.3005987,475.3005987,200,33,0,673,0,11,0,0,0,1
+Telithromycin,An ketolide used to treat community acquired pneumonia of mild to moderate severity.,3002190,812,4.2,1,13,11,811.4731433,811.4731433,172,58,0,1440,0,13,0,0,0,1
+Lomefloxacin,A fluoroquinolone used to prevent and treat a wide variety of infections in the body.,3948,351.35,-0.8,2,8,3,351.1394478,351.1394478,72.9,25,0,586,0,0,1,0,0,1
+Cyclacillin,For the treatment of bacterial infections caused by susceptible organisms.,19003,341.4,1.3,3,6,3,341.1409274,341.1409274,138,23,0,559,0,3,0,0,0,1
+Thalidomide,A medication used to treat newly diagnosed multiple myeloma and erythema nodosum leprosum.,5426,258.23,0.3,1,4,1,258.0640568,258.0640568,83.6,19,0,449,0,0,1,0,0,1
+Rifampicin,"An antibiotic used to treat several types of mycobacterial infections including Mycobacterium avium complex, leprosy, and in combination with other antibacterials to treat latent or active tuberculosis.",135398735,822.9,4.9,6,15,5,822.4051233,822.4051233,220,59,0,1620,0,9,0,4,0,1
+Novobiocin,For the treatment of infections due to staphylococci and other susceptible organisms,54675769,612.6,3.3,5,11,9,612.23191,612.23191,196,44,0,1150,0,4,0,0,0,1
+Amoxicillin,"A penicillin derivative used for the treatment of infections caused by gram-positive bacteria, in particular streptococcal bacteria causing upper respiratory tract infections.",33613,365.4,-2,4,7,4,365.1045419,365.1045419,158,25,0,590,0,4,0,0,0,1
+Azlocillin,"For the treatment of infections caused by Pseudomonas aeruginosa, Escherichia coli, and Haemophilus influenzae.",6479523,461.5,0.1,4,7,5,461.1369047,461.1369047,173,32,0,844,0,4,0,0,0,1
+Cefditoren,A broad-spectrum third-generation cephalosporin antibiotic typically used to treat bacterial infections of the skin and respiratory tract.,9870843,506.6,0.7,3,12,7,506.0500812,506.0500812,242,33,0,928,0,2,0,2,0,1
+Cefuroxime,"A cephalosporin indicated for the treatment of a variety of infections including acute bacterial otitis media, several upper respiratory tract infections, skin infections, urinary tract infections, gonorrhea, early Lyme disease, and impetigo.",5479529,424.4,-0.2,3,10,8,424.0688847,424.0688847,199,29,0,798,0,2,0,1,0,1
+Levofloxacin,"A fluoroquinolone antibiotic used to treat infections caused by susceptible bacteria of the upper respiratory tract, skin and skin structures, urinary tract, and prostate, as well as for post-exposure treatment of inhaled anthrax and the plague.",149096,361.4,-0.4,1,8,2,361.1437843,361.1437843,73.3,26,0,634,0,1,0,0,0,1
+Cefapirin,For treatment of infections caused by susceptible bacteria.,30699,423.5,-1.1,2,9,8,423.0558776,423.0558776,177,28,0,707,0,2,0,0,0,1
+Cefadroxil,"A cephalosporin antibiotic used in the treatment of various bacterial infections, such as urinary tract infections, skin and skin structure infections, and tonsillitis.",47965,363.4,-2.1,4,7,4,363.0888918,363.0888918,158,25,0,629,0,3,0,0,0,1
+Cloxacillin,An antibiotic agent used for the treatment of beta-hemolytic streptococcal and pneumococcal infections as well as staphylococcal infections.,6098,435.9,2.4,2,7,4,435.0655696,435.0655696,138,29,0,722,0,3,0,0,0,1
+Cefprozil,"A cephalosporin antibiotic used in the treatment of various bacterial infections, such as pharyngitis, tonsillitis, otitis media, and uncomplicated skin infections.",5281006,389.4,-1.4,4,7,5,389.1045419,389.1045419,158,27,0,699,0,3,0,1,0,1
+Gemifloxacin,A quinolone antibacterial agent used for the treatment of acute bacterial exacerbation of chronic bronchitis and mild to moderate community-acquired pneumonia caused by susceptible bacteria.,9571107,389.4,-0.7,2,10,5,389.1499323,389.1499323,121,28,0,725,0,0,1,1,0,1
+Amdinocillin,Used in the treatment of urinary tract infections caused by some strains of E. coli and klebsiella and enterobacter species. Used mainly against Gram negative organisms.,36273,325.4,2.1,1,5,3,325.1460128,325.1460128,98.5,22,0,500,0,3,0,0,0,1
+Sparfloxacin,"For the treatment of adults with the following infections caused by susceptible strains microorganisms: community-acquired pneumonia (caused by Chlamydia pneumoniae, Haemophilus influenzae, Haemophilus parainfluenzae, Moraxella catarrhalis, Mycoplasma pneumoniae, or Streptococcus...",60464,392.4,0.1,3,9,3,392.1659969,392.1659969,98.9,28,0,691,0,2,0,0,0,1
+Clarithromycin,"A macrolide antibiotic used for the treatment of a wide variety of bacterial infections such as acute otitis, pharyngitis, tonsillitis, respiratory tract infections, uncomplicated skin infections, and helicobacter pylori infection.",84029,748,3.2,4,14,8,747.4768913,747.4768913,183,52,0,1190,0,18,0,0,0,1
+Ceftriaxone,"A broad-spectrum cephalosporin antibiotic used for the treatment of bacterial infections in various locations, such as in the respiratory tract, skin, soft tissue, and urinary tract.",5479530,554.6,-1.3,4,13,8,554.0460585,554.0460585,288,36,0,1110,0,2,0,1,0,1
+Chloroxine,An antibacterial agent used for the treatment of dandruff and mild to moderately severe seborrheic dermatitis of the scalp.,2722,214.04,3.5,1,2,0,212.9748192,212.9748192,33.1,13,0,191,0,0,0,0,0,1
+Josamycin,For the treatment of bacterial infections.,5282165,828,2.9,3,16,14,827.4667205,827.4667205,206,58,0,1390,0,16,0,2,0,1
+Cefamandole,"A beta-lactam antibiotic used in the treatment of various infections caused by susceptible strains of bacteria, such as lower respiratory infections, urinary tract infections, skin infections, and bone and joint infections.",456255,462.5,-0.9,3,10,7,462.0780101,462.0780101,201,31,0,777,0,3,0,0,0,1
+Cefazolin,"A broad-spectrum cephalosporin antibiotic mainly used for the treatment of skin bacterial infections and other moderate to severe bacterial infections in the lung, bone, joint, stomach, blood, heart valve, and urinary tract.",33255,454.5,-0.4,2,12,7,454.0300145,454.0300145,235,29,0,740,0,2,0,0,0,1
+Cefonicid,For the treatment of bacterial infections caused by susceptible microorganisms.,43594,542.6,-1.9,4,13,9,542.0348251,542.0348251,264,35,0,999,0,3,0,0,0,1
+Cefoperazone,"A broad-spectrum cephalosporin antibiotic used for the treatment of bacterial infections in various locations, including the respiratory tract, abdomen, skin, and female genital tracts.",44187,645.7,-0.7,4,13,9,645.1424012,645.1424012,271,44,0,1250,0,3,0,0,0,1
+Cefotetan,"An antibiotic medication used for the prophylaxis and treatment of various bacterial infections, including urinary tract infections, bone and joint infection, and lower respiratory tract infections.",53025,575.6,0.1,4,15,9,575.0021452,575.0021452,321,36,0,1090,0,2,0,0,0,1
+Cefoxitin,"A semi-synthetic, broad-spectrum antibiotic for parenteral administration used for the treatment of serious bacterial infections, such as urinary tract infection, blood infection, bone and joint infection, and lower respiratory tract infection.",441199,427.5,0,3,9,8,427.0507923,427.0507923,202,28,0,744,0,2,0,0,0,1
+Ceftizoxime,"A third-generation cephalosporin antibiotic used in the treatment of various bacterial infections, including lower respiratory tract infection, urinary tract infection, and gonorrhea.",6533629,383.4,0,3,10,5,383.0358109,383.0358109,201,25,0,669,0,2,0,1,0,1
+Cefradine,A first-generation cephalosporin antibiotic used in the treatment of bacterial infections of the respiratory and urinary tracts and of the skin and soft tissues.,38103,349.4,0.4,3,6,4,349.1096273,349.1096273,138,24,0,697,0,3,0,0,0,1
+Quinupristin,An antibiotic agent used in the treatment of serious vancomycin-resistant Enterococcus faecium bacteremia as well as complicated skin and skin structure infections.,5388937,1022.2,4.2,4,14,10,1021.473161,1021.473161,257,73,0,2010,0,9,0,0,0,1
+Temafloxacin,"For the treatment of lower respiratory tract infections, genital and urinary infections like prostatitis, and skin infections.",60021,417.4,0.6,2,9,3,417.1300259,417.1300259,72.9,30,0,721,0,0,1,0,0,1
+Cefepime,"A fourth-generation cephalosporin antibiotic used in the treatment of various bacterial infections caused by susceptible bacteria, such as pneumonia, urinary tract infections, and skin infections.",5479537,480.6,-0.1,2,10,6,480.1249603,480.1249603,204,32,0,869,0,2,0,1,0,1
+Cefacetrile,Cefacetrile is a broad-spectrum first generation cephalosporin antibiotic effective in Gram-positive and Gram-negative bacterial infections.,91562,339.33,-0.5,2,8,6,339.0525063,339.0525063,162,23,0,664,0,2,0,0,0,1
+Ceftibuten,"A third-generation cephalosporin antibiotic commonly used in the treatment of acute bacterial exacerbations of chronic bronchitis (ABECB), acute bacterial otitis media, pharyngitis, and tonsillitis.",5282242,410.4,-0.3,4,10,6,410.0354765,410.0354765,217,27,0,755,0,2,0,1,0,1
+Cefpodoxime,"A third-generation cephalosporin antibiotic used in the treatment of various bacterial infections, including gonorrhea, community acquired pneumonia, and sinusitis.",6335986,427.5,-1.4,3,11,7,427.0620256,427.0620256,210,28,0,744,0,2,0,1,0,1
+Imipenem,A carbapenem antibiotic normally administered with cilastatin to treat a variety of infections.,104838,299.35,-0.7,3,6,6,299.0939772,299.0939772,142,20,0,491,0,3,0,0,0,1
+Bacampicillin,"For infections at the following sites: upper and lower respiratory tract; skin and soft tissue; urinary tract and acute uncomplicated gonococcal urethritis, when due to sensitive strains of the following...",441397,465.5,2.7,2,9,10,465.1569714,465.1569714,163,32,0,756,0,4,1,0,0,1
+Meticillin,"Used to treat infections caused by susceptible Gram-positive bacteria, particularly beta-lactamase-producing organisms such as Staphylococcus aureus that would otherwise be resistant to most penicillins.",6087,380.4,1.2,2,7,5,380.1042076,380.1042076,131,26,0,600,0,3,0,0,0,1
+Pivampicillin,An ampicillin prodrug used to treat a variety of infections.,33478,463.5,2.9,2,8,9,463.1777068,463.1777068,153,32,0,774,0,4,0,0,0,1
+Pivmecillinam,"A prodrug of the beta lactam antibiotic mecillinam, indicated for the treatment of uncomplicated urinary tract infections (UTIs).",115163,439.6,3.1,0,7,8,439.2140924,439.2140924,114,30,0,710,0,3,0,0,0,1
+Ticarcillin,A beta lactam antibiotic used to treat a variety of infections in the body.,36921,384.4,0.8,3,8,5,384.0449786,384.0449786,178,25,0,640,0,4,0,0,0,1
+Lincomycin,"An antibiotic indicated only for the treatment of serious infections, and is typically reserved for use in cases of penicillin allergy or where penicillin is inappropriate.",3000540,406.5,0.2,5,8,7,406.213758,406.213758,148,27,0,499,0,9,0,0,0,1
+Virginiamycin M1,For the treatment of bacterial infections.,5459319,525.6,2.5,2,8,1,525.2475005,525.2475005,139,38,0,1030,0,3,0,3,0,1
+Dalfopristin,"An antibiotic used with quinupristin to treat severe or life-threatening infections of vancomycin-resistant Enterococcus faecium (VREF), and skin infections caused by methicillin susceptible staphylococcus aureus or streptococcus pyogenes.",6323289,690.8,2.2,2,11,7,690.3298504,690.3298504,185,48,0,1340,0,5,0,3,0,1
+Maltotetraose,Not Available,446495,666.6,-9,14,21,10,666.2218584,666.2218584,348,45,0,918,0,20,0,0,0,1
+GE-2270A,Not Available,16186054,1290.5,3.3,7,24,11,1289.25806,1289.25806,520,87,0,2530,0,6,0,0,0,1
+Ubenimex,"An adjuvant therapy used for acute and chronic myelonous leukemia, lung cancer and nasopharyngeal cancer. It is also used to treat hypercholesterolaemia.",72172,308.37,-1,4,5,8,308.1736073,308.1736073,113,22,0,367,0,3,0,0,0,1
+Ribostamycin,A broad spectrum aminoglycoside antibiotic on the list of WHO critical antimicrobials for human medicine.,33042,454.5,-6.3,10,14,6,454.2274933,454.2274933,262,31,0,593,0,14,0,0,0,1
+Aurodox,Aurodox is an antibiotic obtained from a streptomyces variant considered as possibly effective against streptococcus pyogenes infections. It may promote growth in poultry.,135509117,811,4,7,12,17,810.4302754,810.4302754,216,58,0,1750,0,11,0,7,0,1
+Latamoxef,"Latamoxef is an oxacephem antibiotic usually grouped with the cephalosporins. It is used to treat bacterial infections. Latamoxef is primarily indicated in conditions like Bone and joint infection, GI infections,...",47499,520.5,-0.6,4,13,9,520.1012474,520.1012474,232,36,0,958,0,2,1,0,0,1
+Apramycin,For the treatment of bacterial infections in animals.,3081545,539.6,-7,11,16,6,539.2802572,539.2802572,284,37,0,760,0,17,0,0,0,1
+Oritavancin,An antibacterial agent used to treat acute bacterial skin and skin structure infections caused by susceptible Gram-positive bacteria.,16136912,1793.1,1.5,20,29,19,1790.564106,1790.564106,561,125,0,3700,0,22,0,0,0,1
+Ceftobiprole,A cephalosporin antibiotic used to treat both community and hospital-acquired pneumonia caused by susceptible bacteria.,135413542,534.6,-2.4,5,13,6,534.1103728,534.1103728,257,36,0,1100,0,3,0,2,0,1
+Rifalazil,"Investigated for use/treatment in atherosclerosis, bacterial infection, and peripheral vascular disease.",135431094,941.1,3.3,5,16,6,940.4469881,940.4469881,226,68,0,2510,0,9,0,3,0,1
+Ramoplanin,For the treatment of bacterial infections.,16132338,2254.1,-4.8,31,32,61,2253.214456,2252.211101,852,158,0,4810,0,15,7,2,0,1
+Spiramycin,A macrolide antimicrobial agent used in the treatment of various bacterial infections.,6419898,843.1,2.1,4,16,11,842.5140051,842.5140051,195,59,0,1370,0,7,12,2,0,1
+Teicoplanin,For the treatment of bacterial infections caused by susceptible microorganisms.,133065662,1879.7,0.5,24,34,20,1877.556582,1877.556582,662,132,0,3920,0,22,1,0,0,1
+Garenoxacin,Investigated for use/treatment in bacterial infection.,124093,426.4,2.1,2,8,5,426.1391135,426.1391135,78.9,31,0,771,0,1,0,0,0,1
+Dalbavancin,An antibacterial used to treat acute bacterial skin and skin structure infections (ABSSSI) caused by susceptible strains of Gram-positive bacteria.,16134627,1816.7,3.8,21,30,22,1814.608558,1814.608558,573,128,0,3740,0,18,0,0,0,1
+Telavancin,An antibacterial agent used in the treatment of complicated skin and skin structure infections and types of hospital-acquired bacterial pneumonia.,3081362,1755.6,-2.1,23,31,30,1753.63743,1753.63743,598,121,0,3490,0,18,0,0,0,1
+Cethromycin,"A ketolide antibiotic with broad-spectrum activity against Gram-positive, Gram-negative, and atypical bacteria that may be useful for treating several conditions including community-acquired pneumonia, inhalation anthrax, plague, and tularemia.",447451,765.9,5.4,2,12,8,765.4200451,765.4200451,163,55,0,1410,0,13,0,1,0,1
+Squalamine,"Investigated for use/treatment in ovarian cancer, lung cancer, and macular degeneration.",72495,628,4.3,5,8,16,627.4644934,627.4644934,142,43,0,976,0,11,0,0,0,1
+Viomycin,Viomycin is an essential component in the drug cocktail currently used to fight infections of Mycobacterium tuberculosis.,135398671,685.7,-7,15,13,10,685.3255846,685.3255846,393,48,0,1280,0,7,0,1,0,1
+Brefeldin A,A metabolite from Penicillium brefeldianum that exhibits a wide range of antibiotic activity.,5287620,280.36,2,2,4,0,280.1674593,280.1674593,66.8,20,0,388,0,5,0,2,0,1
+Anisomycin,"Anisomycin (sometimes known as flagecidin), is an antibiotic retrieved from the bacteria Streptomyces griseolus. This drug acts to inhibit bacterial protein and DNA synthesis.",253602,265.3,0.9,2,5,5,265.1314081,265.1314081,67.8,19,0,302,0,3,0,0,0,1
+Chloramphenicol succinate,A broad-spectrum antibiotic agent used for the treatment of acute and severe infections caused by susceptible bacterial strains.,656580,423.2,1.1,3,8,10,422.0283709,422.0283709,159,27,0,546,0,2,0,0,0,1
+Thiamphenicol,Not Available,27200,356.2,-0.3,3,5,6,355.0047991,355.0047991,112,21,0,443,0,2,0,0,0,1
+Bedaquiline,A diarylquinoline antimycobacterial used in combination with other antibacterials to treat pulmonary multidrug resistant tuberculosis (MDR-TB).,5388906,555.5,7.2,1,4,8,554.15689,554.15689,45.6,37,0,715,0,2,0,0,0,1
+Enviomycin,Cyclic basic peptide related to viomycin. It is isolated from an induced mutant of Streptomyces griseoverticillatus var. tuberacticus and acts as an antitubercular agent with less ototoxicity than tuberactinomycin.,3000546,685.7,-7.4,15,13,10,685.3255846,685.3255846,393,48,0,1280,0,0,7,1,0,1
+Cefaloridine,Cephaloridine or cefaloridine is a first generation semisynthetic cephalosporin. It is derived from cephalosporin C and is a zwitterion at physiological pH.,5773,415.5,1.9,1,6,5,415.0660484,415.0660484,147,28,0,687,0,2,0,0,0,1
+Tedizolid phosphate,An oxazolidinone class antibiotic that inhibits bacterial protein synthesis and is proven to be effective in the treatment of certain Gram-positive bacterial infections.,11476460,450.3,0.3,2,11,6,450.0852974,450.0852974,153,31,0,702,0,1,0,0,0,1
+Cefminox,Cefminox (INN) is a second generation cephalosporin antibiotic. It is approved for use in Japan.,71141,519.6,-4,4,14,11,519.0664596,519.0664596,279,33,0,862,0,3,0,0,0,1
+Chlortetracycline,The first tetracycline antibiotic most commonly used for veterinary purposes.,54675777,478.9,-1.3,6,9,2,478.1142934,478.1142934,182,33,0,1010,0,5,0,0,0,1
+Kitasamycin,Kitasamycin is a macrolide antibiotic derived from Streptomyces kitasatoensis.,133065671,856,3.1,2,17,16,855.4616351,855.4616351,212,60,0,1470,0,15,1,2,0,1
+Carindacillin,"A penicillin antibiotic used to treat a variety of infections, but is no longer marketed in the USA.",93184,494.6,3.8,2,7,7,494.1511577,494.1511577,138,35,0,887,0,3,1,0,0,1
+Procaine benzylpenicillin,A local anesthetic and antibiotic combination for intramuscular injection to treat a variety of bacterial infections while reducing pain from a deep intramuscular injection.,5903,570.7, None ,3,9,11,570.2512061,570.2512061,168,40,0,752,0,3,0,0,0,2
+Avilamycin,Not Annotated,71674,1404.2,0.6,6,32,20,1402.463576,1402.463576,385,95,0,2660,0,29,2,0,0,1
+Bambermycins,"Bambermycins are antibiotic complexes which are retrieved from the organism, Streptomyces bambergiensis. They are used as an additive in food ingested by chickens and swine. The bambermycin complex of antibiotics...",6433554,1597.6,-0.5,18,35,39,1596.660998,1596.660998,602,110,0,3390,0,26,0,3,0,1
+Efrotomycin,Not Annotated,135434844,1145.3,3.4,8,20,24,1144.593043,1144.593043,300,81,0,2410,0,0,21,7,0,1
+Florfenicol,Florfenicol is a fluorinated synthetic analog of thiamphenicol.,114811,358.2,0.8,2,5,6,357.0004627,357.0004627,91.8,21,0,447,0,2,0,0,0,1
+Gamithromycin,Gamithromycin is an antibiotic used in cattle.,59364992,777,4.9,5,14,9,776.5398259,776.5398259,180,54,0,1180,0,18,0,0,0,1
+Marbofloxacin,"Marbofloxacin is a carboxylic acid, part of the third generation of antibiotic fluoroquinolones. It is used in veterinary. A formulation of marbofloxacin combined with clotrimazole and dexamethasone is available under...",60651,362.4,-0.5,1,9,2,362.1390333,362.1390333,76.6,26,0,636,0,0,0,0,0,1
+Oleandomycin,"Oleandomycin is a macrolide antibiotic, though it is less effective than erythromycin. It is synthesized from strains of Streptomyces antibioticus.",72493,687.9,2.6,3,13,6,687.4193764,687.4193764,166,48,0,1090,0,18,0,0,0,1
+Roxarsone,Roxarsone is an organoarsenic molecule added to poultry feed. The addition of this compound to poultry feed improves weight gain and feed efficiency as well as prevent the growth of...,5104,263.04, None ,3,6,1,262.941106,262.941106,124,14,0,270,0,0,0,0,0,1
+Thiostrepton,"Thiostrepton is a natural cyclic oligopeptide antibiotic, derived from several strains of streptomycetes including Streptomyces azureus and Streptomyces laurentii. Thiostrepton is a natural product of the ribosomally synthesized and post-translationally...",16129666,1664.9,0.6,17,31,12,1663.492353,1663.492353,701,114,0,3940,0,0,17,1,0,1
+Tiamulin,Tiamulin is a pleuromutilin antibiotic drug that is used in veterinary medicine particularly for pigs and poultry.,656958,493.7,5.6,1,6,10,493.3225802,493.3225802,92.1,34,0,770,0,8,0,0,0,1
+Tilmicosin,Tilmicosin is a macrolide antibiotic. It is used in veterinary medicine for the treatment of bovine respiratory disease and ovine respiratory disease associated with Mannheimia haemolytica.,5282521,869.1,3.6,4,15,12,868.5660406,868.5660406,186,61,0,1420,0,19,0,2,0,1
+Tylosin,Tylosin is a bacteriostatic macrolide antibiotic and feed additive used in veterinary medicine. It has a broad spectrum of activity against Gram-positive organisms and a limited range of Gram-negative organisms....,5280440,916.1,1,5,18,13,915.51915,915.51915,239,64,0,1560,0,21,0,2,0,1
+Virginiamycin,Virginiamycin is a streptogramin antibiotic similar to pristinamycin and quinupristin/dalfopristin. It is a combination of pristinamycin IIA and virginiamycin S1. Virginiamycin is used in the fuel ethanol industry to prevent...,127053480,1349.5, None ,6,19,7,1348.601591,1348.601591,364,98,0,2640,0,10,0,3,0,2
+Ceftiofur,"Ceftiofur is a third generation cephalosporin antibiotic, first described in 1987, and now used in veterinary medicine. It is marketed by pharmaceutical company Zoetis as Excenel, and is the active...",6328657,523.6,0.2,3,13,9,523.0290114,523.0290114,256,34,0,945,0,2,0,1,0,1
+Hygromycin B,"Hygromycin B is an aminoglycoside antibiotic produced by the bacterium Streptomyces hygroscopicus which kills bacteria, fungi and higher eukaryotic cells by inhibiting protein synthesis.",56928061,527.5,-6.6,11,16,6,527.2326383,527.2326383,272,36,0,756,0,15,1,0,0,1
+Maduramicin,"Maduramicin is an antiprotozoal agent used in veterinary medicine as prophylaxis against coccidiosis. It is a naturally occurring compound which was first isolated from the actinomycete, Actinomadura rubra.",68595,934.2, None ,5,18,13,933.5661002,933.5661002,210,65,0,1610,0,24,0,0,0,2
+Salinomycin,Not Annotated,3085092,751,5.7,4,11,12,750.4918131,750.4918131,161,53,0,1320,0,18,0,0,0,1
+Isatoic anhydride,Not Available,8359,163.13,1,1,3,0,163.026943,163.026943,55.4,12,0,226,0,0,0,0,0,1
+Epetraborole,"Epetraborole has been used in trials studying the treatment of Infections, Bacterial, Infections, Intestinal, Infections, Urinary Tract, and Community-acquired Infection.",46836890,237.06, None ,3,5,5,237.1172382,237.1172382,84.9,17,0,244,0,1,0,0,0,1
+Pazufloxacin,Pazufloxacin is under investigation in clinical trial NCT02592096 (Pazufloxacin Mesilate Ear Drops Clinical Trial Protocol).,65957,318.3,-0.8,2,7,2,318.1015851,318.1015851,92.9,23,0,603,0,1,0,0,0,1
+Prulifloxacin,Prulifloxacin has been investigated for the treatment of Urinary Tract Infection.,65947,461.5,1,1,11,4,461.1056847,461.1056847,125,32,0,931,0,0,1,0,0,1
+Lanopepden,"Lanopepden has been used in trials studying the treatment of Pneumonia, Infections, Bacterial, Skin Diseases, Infectious, and Skin Infections, Bacterial.",52918384,479.5,2,3,10,8,479.2656308,479.2656308,123,34,0,686,0,2,0,0,0,1
+Sultamicillin,Sultamicillin has been used in trials studying the prevention and treatment of Ventilator Associated Pneumonia and Chronic Obstructive Pulmonary Disease (COPD).,444022,594.7,0.7,2,11,9,594.1454209,594.1454209,216,40,0,1240,0,6,0,0,0,1
+Nadifloxacin,Nadifloxacin has been used in trials studying the treatment of Acne Vulgaris.,4410,360.4,2.9,2,7,2,360.1485353,360.1485353,81.1,26,0,631,0,0,1,0,0,1
+Sisomicin,Sisomicin has been used in trials studying the treatment of Pyoderma.,36119,447.5,-5.1,8,12,6,447.2692986,447.2692986,214,31,0,643,0,11,0,0,0,1
+Protionamide,Prothionamide has been used in trials studying the treatment of MDR-TB and HIV Infections.,666418,180.27,1.5,1,2,3,180.0721196,180.0721196,71,12,0,159,0,0,0,0,0,1
+Amithiozone,Amithiozone has been used in trials studying the treatment of Mycobacterium Avium-intracellulare Infection.,9568512,236.3,1,3,3,3,236.0731822,236.0731822,112,16,0,285,0,0,0,1,0,1
+Tunicamycin,"Tunicamycin is a mixture of homologous nucleoside antibiotics that inhibits the UDP-HexNAc: polyprenol-P HexNAc-1-P family of enzymes. One member of this family is the enzyme GlcNAc phosphotransferase (GPT), which catalyzes...",56927841,859,1.3,11,16,22,858.4473821,858.4473821,306,60,0,1450,0,15,0,1,0,1
+Troleandomycin,For the treatment of bacterial infection.,202225,814,4.3,0,16,12,813.4510705,813.4510705,184,57,0,1430,0,18,0,0,0,1
+Sitafloxacin,Not Annotated,461399,409.8,0.7,2,8,3,409.1004755,409.1004755,86.9,28,0,761,0,3,0,0,0,1
+Cefatrizine,Not Annotated,6410758,462.5,-2.3,5,10,7,462.0780101,462.0780101,225,31,0,775,0,3,0,0,0,1
+Dibekacin,Dibekacin is an aminoglycoside antibiotic marketed in Japan .,470999,451.5,-5.8,9,13,6,451.2642132,451.2642132,248,31,0,579,0,13,0,0,0,1
+Miocamycin,Miocamycin is a macrolide type antimicrobial . This drug may be marketed in Japan for clinical use as it is listed in the Japanese pharmacopeia . It has shown to...,5282188,898,3.8,1,18,18,897.4721998,897.4721998,218,63,0,1590,0,16,0,2,0,1
+Epicillin,Not Annotated,71392,351.4,-1.3,3,6,4,351.1252773,351.1252773,138,24,0,658,0,4,0,0,0,1
+Midecamycin,"Midecamycin was used for the treatment of infections in the oral cavity, upper and lower respiratory tracts and skin and soft tissue infections. The alone use of midecamycin was mainly...",5282169,814,2.6,3,16,14,813.4510705,813.4510705,206,57,0,1360,0,16,0,2,0,1
+Cefodizime,Not Annotated,5361871,584.7,0.2,4,15,10,584.0276317,584.0276317,305,37,0,1030,0,2,0,1,0,1
+Cefsulodin,Not Annotated,656575,532.6,0.2,3,9,7,532.072256,532.072256,225,36,0,1050,0,3,0,0,0,1
+Cefetamet,Not Annotated,5487888,397.4,-0.7,3,10,5,397.051461,397.051461,201,26,0,712,0,2,0,1,0,1
+Isepamicin,Not Annotated,3037209,569.6,-6.9,12,16,9,569.2908218,569.2908218,298,39,0,817,0,15,0,0,0,1
+Oxolinic acid,Not Annotated,4628,261.23,-0.2,1,6,2,261.0637225,261.0637225,76.1,19,0,446,0,0,0,0,0,1
+Propicillin,Not Annotated,92879,378.4,2.7,2,6,6,378.124943,378.124943,121,26,0,590,0,3,1,0,0,1
+Bekanamycin,Not Annotated,439318,483.5,-7.2,11,15,6,483.2540424,483.2540424,288,33,0,639,0,15,0,0,0,1
+Cefpirome,Not Annotated,5479539,514.6,0.9,2,10,6,514.1093102,514.1093102,208,35,0,955,0,2,0,1,0,1
+Sulbenicillin,Not Annotated,20055036,414.5,1.1,3,8,5,414.0555433,414.0555433,175,27,0,755,0,4,0,0,0,1
+Pristinamycin,Not Annotated,11979535,1349.5, None ,6,19,7,1348.601591,1348.601591,364,98,0,2640,0,0,10,3,0,2
+Decamethoxine,Not Annotated,162291,623,10.7,0,4,21,622.5648589,622.5648589,52.6,44,2,771,0,0,6,0,0,1
+Sulfamethoxypyridazine,Not Annotated,5330,280.31,0.3,2,7,4,280.0630114,280.0630114,116,19,0,376,0,0,0,0,0,1
+Cefazedone,Not Annotated,71736,548.4,1.1,2,11,7,546.9612375,546.9612375,212,33,0,984,0,2,0,0,0,1
+Talampicillin,Not Annotated,71447,481.5,2.7,2,8,6,481.1307567,481.1307567,153,34,0,875,0,4,1,0,0,1
+Ceftezole,Not Annotated,65755,440.5,-0.7,2,12,7,440.0143644,440.0143644,235,28,0,709,0,2,0,0,0,1
+Pipemidic acid,Not Annotated,4831,303.32,-2.1,2,8,3,303.1331394,303.1331394,98.7,22,0,489,0,0,0,0,0,1
+Metampicillin,Metampicillin is a penicillin antibiotic prepared by the reaction of ampicillin with formaldehyde. It is hydrolysed in aqueous solution to form ampicillin. Hydrolysis is rapid under acid conditions like the...,6713928,361.4,3,2,6,5,361.1096273,361.1096273,124,25,0,603,0,4,0,0,0,1
+Clinafloxacin,"Clinafloxacin is a fluoroquinolone antibacterial currently under research. It has been proven to present good antibiotic properties. However, its approval and release have been halted due to the presence of...",60063,365.8,0.4,2,7,3,365.0942473,365.0942473,86.9,25,0,626,0,0,1,0,0,1
+Rifaximin,"A rifamycin-based non-systemic antibiotic used for the treatment of gastrointestinal bacterial infections, such as traveler's diarrhea and irritable bowel syndrome, and reduction of overt hepatic encephalopathy recurrence in adults.",6436173,785.9,6.9,5,12,3,785.3523595,785.3523595,198,57,0,1590,0,9,0,3,0,1
+Fidaxomicin,A macrolide antibiotic used to treat diarrhea associated with Clostridium difficile infection.,10034073,1058,6.4,7,18,15,1056.425221,1056.425221,267,72,0,1970,0,14,0,5,0,1
+Fusafungine,"Fusafungine is an antibiotic from Fusarium lateririum, and is used for the treatment of respiratory infections.",3084092,639.8,6.5,0,9,6,639.4094804,639.4094804,140,45,0,952,0,3,3,0,0,1
+Azidamfenicol,Not Annotated,62858,295.25,1,3,7,6,295.0916685,295.0916685,130,21,0,412,0,2,0,0,0,1
+Sulfacetamide,A corticosteroid used to treat inflammatory ocular conditions and acne vulgaris.,5320,214.24,-1,2,4,2,214.0412134,214.0412134,97.6,14,0,299,0,0,0,0,0,1
+Metronidazole,"A nitroimidazole used to treat trichomoniasis, amebiasis, inflammatory lesions of rosacea, and bacterial infections, as well as prevent postoperative infections.",4173,171.15,0,1,4,2,171.0643912,171.0643912,83.9,12,0,170,0,0,0,0,0,1
+Retapamulin,A topical antibiotic agent used for the treatment of impetigo caused by methicillin-susceptible Staphylococcus aureus or Streptococcus pyogenes.,6918462,517.8,6.1,1,6,6,517.3225802,517.3225802,92.1,36,0,895,0,10,0,0,0,1
+Besifloxacin,A fluoroquinolone antibiotic agent used for the treatment of bacterial conjunctivitis.,10178705,393.8,1.1,2,7,3,393.1255474,393.1255474,86.9,27,0,656,0,1,0,0,0,1
+Finafloxacin,"Finafloxacin is indicated for the treatment of acute otitis externa (AOE) with or without an otowick, caused by susceptible strains of Pseudomonas aeruginosa and Staphylococcus aureus in patients age 1...",11567473,398.4,-0.7,2,9,3,398.1390333,398.1390333,106,29,0,806,0,2,0,0,0,1
+Ozenoxacin,A quinolone antibiotic used to treat impetigo caused by susceptible bacteria.,9863827,363.4,4.1,2,6,4,363.1582916,363.1582916,82.5,27,0,645,0,0,0,0,0,1
+Solithromycin,Investigated for the treatment of community-acquired pneumonia (CAP).,25242512,845,4.3,2,15,11,844.4746205,844.4746205,198,60,0,1530,0,13,0,0,0,1
+Flurithromycin,Not Annotated,71260,751.9,2.8,5,15,7,751.4518194,751.4518194,194,52,0,1230,0,18,0,0,0,1
+Rokitamycin,Not Annotated,5282211,828,3,3,16,15,827.4667205,827.4667205,206,58,0,1380,0,16,0,2,0,1
+Pimecrolimus,A topical calcineurin inhibitor used in the treatment of mild-moderate atopic dermatitis who are not candidates for other types of therapy due to previous lack of response or other reasons.,6509979,810.4,3.8,2,11,6,809.4480897,809.4480897,158,56,0,1440,0,14,0,2,0,1
+Ivermectin,"An anti parasite medication used to treat head lice, onchocerciasis, strongyloidiasis, ascariasis, trichuriasis, and enterobiasis.",6321424,875.1,4.1,3,14,8,874.5078571,874.5078571,170,62,0,1680,0,20,0,3,0,1
+Tacrolimus,A calcineurin inhibitor used to prevent organ transplant rejection and to treat moderate to severe atopic dermatitis.,445643,804,2.7,3,12,7,803.4819767,803.4819767,178,57,0,1480,0,14,0,2,0,1
+Everolimus,A mammalian target of rapamycin (mTOR) kinase inhibitor used to treat various types of malignancies.,6442177,958.2,5.9,3,14,9,957.5813564,957.5813564,205,68,0,1810,0,15,0,4,0,1
+Epothilone D,"Investigated for use/treatment in colorectal cancer, lung cancer, breast cancer, solid tumors, and prostate cancer.",447865,491.7,5,2,7,2,491.2705446,491.2705446,125,34,0,777,0,5,0,2,0,1
+Patupilone,"Investigated for use/treatment in ovarian cancer, lung cancer, brain cancer, breast cancer, and gastric cancer.",448013,507.7,4.2,2,8,2,507.2654592,507.2654592,138,35,0,816,0,7,0,1,0,1
+6-Deoxyerythronolide B,Not Available,121904,386.5,3.1,3,6,1,386.2668389,386.2668389,104,27,0,507,0,10,0,0,0,1
+Ixabepilone,A microtubule inhibitor administered in combination with capecitabine or alone in the treatment of metastatic or locally advanced breast cancer that has shown inadequate response to taxanes and anthracyclines.,6445540,506.7,3.6,3,7,2,506.2814436,506.2814436,140,35,0,817,0,7,0,1,0,1
+Trastuzumab emtansine/Mertansine,An antineoplastic agent and antibody-drug conjugate used to treat HER2-overexpressing breast cancer.,11343137,738.3,2.2,3,11,8,737.2748936,737.2748936,158,50,0,1340,0,8,0,2,0,1
+GPI-1485,Investigated for use/treatment in erectile dysfunction and parkinson's disease.,9837656,241.28,1.5,1,4,4,241.1314081,241.1314081,74.7,17,0,348,0,1,0,0,0,1
+KOS-1584,Investigated for use/treatment in solid tumors.,6918835,489.7,4.7,2,7,2,489.2548945,489.2548945,125,34,0,818,0,5,0,3,0,1
+Ridaforolimus,"Investigated for use/treatment in solid tumors, sarcoma, cancer/tumors (unspecified), endometrial cancer, prostate cancer, and bone metastases.",11520894,990.2,5.9,2,14,8,989.5629434,989.5629434,202,69,0,1940,0,15,0,4,0,1
+Temsirolimus,A antineoplastic agent used in the treatment of renal cell carcinoma (RCC) that works by inhibiting mTOR.,6918289,1030.3,5.6,4,16,11,1029.602486,1029.602486,242,73,0,2010,0,15,0,4,0,1
+Mitemcinal,Investigated for use/treatment in gastroparesis and irritable bowel syndrome (IBS).,6918267,756,4.1,2,13,9,755.4819767,755.4819767,152,53,0,1330,0,16,0,0,0,1
+Carbomycin,"Carbomycin, also called magnamycin, is crystalline macrolide antibiotic. This antibacterial is obtained from Streptomyces halstedii and it presents a large inhibitory effect against Gram-positive bacteria and some Mycoplasma strains. The...",5287879,842,1.8,2,17,14,841.4459851,841.4459851,215,59,0,1470,0,17,0,1,0,1
+Doramectin,"Doramectin is a veterinary drug approved by the Food and Drug Administration for the treatment of parasites such as gastrointestinal roundworms, lungworms, eyeworms, grubs, sucking lice and mange mites in...",9832750,899.1,4.5,3,14,7,898.5078571,898.5078571,170,64,0,1790,0,19,0,3,0,1
+Eprinomectin,Not Annotated,6450531,900.1,3.5,3,14,8,899.503106,899.503106,179,64,0,1830,0,19,0,3,0,1
+Selamectin,"Selamectin is a topical parasiticide and antihelminthic used on dogs and cats to treat and prevent infections of heartworms, fleas, ear mites, sarcoptic mange, and certain types of ticks in...",9578507,770,5.4,3,12,4,769.4401119,769.4401119,155,55,0,1550,0,14,0,4,0,1
+Tildipirosin,Tildipirosin is a veterinary antibiotic.,24860548,734,4.3,3,11,9,733.5241163,733.5241163,132,52,0,1170,0,12,0,2,0,1
+Tylvalosin,Not Annotated,6441094,1042.3,3.4,3,20,19,1041.58723,1041.58723,251,73,0,1860,0,21,0,2,0,1
+Bryostatin 1,Bryostatin 1 has been investigated for the treatment of HIV Infection and Alzheimer's Disease.,5280757,905,4,4,17,13,904.4456507,904.4456507,240,64,0,1830,0,11,0,5,0,1
+Lorvotuzumab mertansine,"Lorvotuzumab mertansine has been used in trials studying the treatment of SCLC, Leukemia, Ovarian Cancer, Multiple Myeloma, and Merkel Cell Carcinoma, among others.",139033611,998.6,0.1,5,16,20,997.3943573,997.3943573,300,67,0,1800,0,9,1,2,0,1
+Epofolate,Epofolate has been used in trials studying the treatment of Advanced Solid Tumors.,135566069,1569.7,-2.7,16,32,38,1568.573422,1568.573422,679,108,0,3270,0,12,0,1,0,1
+Sagopilone,"Sagopilone has been used in trials studying the treatment of Melanoma, Neoplasms, CNS Disease, Breast Cancer, and Breast Neoplasms, among others. It is a so-called fully synthetic epothilone and is...",11284169,543.7,4.9,2,8,3,543.2654592,543.2654592,138,38,0,881,0,7,0,0,0,1
+Mirvetuximab Soravtansine,"Mirvetuximab Soravtansine has been used in trials studying the treatment of Ovarian cancer, Endometrial Cancer, Fallopian tube cancer, Epithelial Ovarian Cancer, and Primary Peritoneal Cancer, among others.",91810695,977.6,1.8,4,16,16,976.3034939,976.3034939,313,64,0,1890,0,8,1,2,0,1
+Cefroxadine,Was used for the treatment of bacterial infections.,5284529,365.4,-2.3,3,7,5,365.1045419,365.1045419,147,25,0,715,0,3,0,0,0,1
+Cefbuperazone,Not Annotated,127527,627.7,-1,4,14,10,627.1529659,627.1529659,280,42,0,1210,0,4,0,0,0,1
+Ceftaroline fosamil,"An antibacterial agent used to treat various bacterial infections, such as acute bacterial skin and skin structure infections and community-acquired bacterial pneumonia.",9852981,684.7,2.3,4,17,10,684.0102814,684.0102814,330,43,0,1210,0,2,0,1,0,1
+Cefcapene,Not Annotated,6436055,453.5,-0.5,4,10,8,453.0776757,453.0776757,232,30,0,832,0,2,0,1,0,1
+Cefozopran,Not Annotated,9571080,515.5,0.7,2,12,6,515.079407,515.079407,238,35,0,960,0,2,0,1,0,1
+Benzylpenicilloyl polylysine,A penicillin derivative used to determine penicillin allergies.,45266800,626.8, None ,9,13,17,626.3097836,626.3097836,286,43,0,819,0,4,1,0,0,2
+Azidocillin,"For treatment of infection (Respiratory, GI, UTI and meningitis) due to E. coli, P. mirabilis, enterococci, Shigella, S. typhosa and other Salmonella, nonpenicillinase-producing N. gononhoeae, H. influenzae, staphylococci, streptococci including...",15574941,375.4,2.8,2,7,5,375.1001252,375.1001252,126,26,0,672,0,4,0,0,0,1
+Penamecillin,Not Annotated,10250769,406.5,2.1,1,7,8,406.1198576,406.1198576,127,28,0,661,0,3,0,0,0,1
+Aspoxicillin,Not Annotated,71961,493.5,-3.4,6,9,8,493.1631194,493.1631194,217,34,0,861,0,5,0,0,0,1
+Biapenem,Biapenem has been used in trials studying the treatment of Bacterial Infections.,71339,350.4,1.4,1,6,3,350.1048763,350.1048763,128,24,0,609,0,4,1,0,0,1
+Doripenem,An antibiotic of the penem class used to treat complicated intra-abdominal and urinary tract infections.,73303,420.5,-3.4,5,10,7,420.1137269,420.1137269,196,27,0,780,0,6,0,0,0,1
+Orbifloxacin,Orbifloxacin is a fluoroquinolone antibiotic. It is marketed by Schering-Plough Animal Health and approved for certain infections in dogs.,60605,395.4,0.9,2,9,3,395.145676,395.145676,72.9,28,0,691,0,2,0,0,0,1
+Sarafloxacin,"Sarafloxacin is a quinolone antibiotic drug, which was discontinued by its manufacturer, Abbott Laboratories, before receiving approval for use in the US or Canada.",56208,385.4,0.3,2,8,3,385.1237978,385.1237978,72.9,28,0,645,0,0,0,0,0,1
+Difloxacin,"Difloxacin is a synthetic fluoroquinolone used in veterinary. As an antibacterial, it presents a broad bactericidal spectrum and its effects are dependent on its concentration. However, it presents a reduced...",56206,399.4,1.6,1,8,3,399.1394478,399.1394478,64.1,29,0,672,0,0,0,0,0,1
+Trovafloxacin,An antibiotic used to treat gonorrhea and chlamydia.,62959,416.4,0.3,2,10,3,416.1096249,416.1096249,99.8,30,0,770,0,2,0,0,0,1
+Rosoxacin,"For the treatment of bacterial infection of respiratory tract, urinary tract, GI, CNS and immuno compromised patients.",287180,294.3,0.6,1,5,3,294.1004423,294.1004423,70.5,22,0,482,0,0,0,0,0,1
+Cinoxacin,"For the treatment of initial and recurrent urinary tract infections in adults caused by the following susceptible microorganisms: Escherichia coli, Proteus mirabilis, Proteus vulgaris, Klebsiella species (including K. pneumoniae), and...",2762,262.22,2.1,1,7,2,262.0589714,262.0589714,88.4,19,0,449,0,0,0,0,0,1
+Fleroxacin,Fleroxacin is a broad-spectrum antimicrobial fluoroquinolone.,3357,369.34,-0.1,1,9,4,369.1300259,369.1300259,64.1,26,0,595,0,0,0,0,0,1
+Nemonoxacin,Investigated for use/treatment in bacterial infection and pneumonia.,11993740,371.4,0.4,2,7,4,371.1845063,371.1845063,96.1,27,0,647,0,2,0,0,0,1
+Flumequine,Flumequine is a synthetic chemotherapeutic antibiotic of the fluoroquinolone drug class used to treat bacterial infections.,3374,261.25,2.9,1,5,1,261.0801214,261.0801214,57.6,19,0,462,0,0,1,0,0,1
+Piromidic acid,Not Annotated,4855,288.3,1.3,1,7,3,288.1222404,288.1222404,86.6,21,0,473,0,0,0,0,0,1
+Rufloxacin,Rufloxacin is a quinolone antibiotic.,58258,363.4,-0.3,1,8,2,363.1052908,363.1052908,89.4,25,0,608,0,0,0,0,0,1
+Sulfamethoxazole,"An oral sulfonamide antibiotic, given in combination with trimethoprim, used to treat a variety of infections of the urinary tract, respiratory system, and gastrointestinal tract.",5329,253.28,0.9,2,6,3,253.0521124,253.0521124,107,17,0,346,0,0,0,0,0,1
+Sulfisoxazole,A sulfonamide antibiotic used with other antibiotics to prevent and treat a variety of bacterial infections.,5344,267.31,1,2,6,3,267.0677625,267.0677625,107,18,0,374,0,0,0,0,0,1
+Sulfadiazine,"A sulfonamide antibiotic used in a variety of infections, such as urinary tract infections, trachoma, and chancroid.",5215,250.28,-0.1,2,6,3,250.0524468,250.0524468,106,17,0,327,0,0,0,0,0,1
+Silver sulfadiazine,A topical sulfonamide antibiotic that acts on the bacterial cell wall and cell membrane; approved for the treatment of burns.,441244,357.14, None ,1,6,3,355.94971,355.94971,95.3,18,0,327,0,0,0,0,0,2
+Flomoxef,Flomoxef has been used in trials studying the treatment of Urinary Tract Infection.,65864,496.5,-1.3,3,14,11,496.0646456,496.0646456,220,32,0,793,0,2,0,0,0,1
+Isoniazid,An antibiotic used to treat mycobacterial infections; most commonly use in combination with other antimycobacterial agents for the treatment of active or latent tuberculosis.,3767,137.14,-0.7,2,3,1,137.0589119,137.0589119,68,10,0,120,0,0,0,0,0,1
+Geneticin,"Geneticin (also known as G418) is an aminoglycoside antibiotic similar in structure to gentamicin B1, produced by Micromonospora rhodorangea. Geneticin blocks polypeptide synthesis by inhibiting the elongation step in both...",123865,496.6,-5.8,10,14,6,496.2744435,496.2744435,248,34,0,681,0,15,0,0,0,1
+Gentamicin C1a,Not Available,72396,449.5,-5,8,12,6,449.2849486,449.2849486,214,31,0,592,0,12,0,0,0,1
+Neamine,Not Available,72392,322.36,-5.4,8,10,3,322.1852346,322.1852346,204,22,0,378,0,10,0,0,0,1
+Arbekacin,"Arbekacin is used for the short term treatment of multi-resistant bacterial infections, such as methicillin-resistant Staphylococcus aureus (MRSA).",68682,552.6,-6.8,11,15,10,552.3118916,552.3118916,297,38,0,757,0,14,0,0,0,1
+Puromycin,"Puromycin is an antibiotic that prevents bacterial protein translation. It is utilized as a selective agent in laboratory cell cultures. Puromycin is toxic to both prokaryotic and eukaryotic cells, resulting...",439530,471.5,0,4,10,8,471.2230171,471.2230171,161,34,0,680,0,5,0,0,0,1
+Plazomicin,An aminoglycoside antibiotic used to treat complicated urinary tract infections.,42613186,592.7,-6.2,11,15,13,592.3431918,592.3431918,269,41,0,873,0,12,0,0,0,1
+Sulfamerazine,"An antibacterial agent used in the treatment of various bacterial infections, such as bronchitis, prostatitis, and urinary tract infections.",5325,264.31,0.1,2,6,3,264.0680968,264.0680968,106,18,0,360,0,0,0,0,0,1
+Lasalocid,Lasalocid is an agent that presents antibacterial and coccidiostat activities. It is produced by strains of Streptomyces lasaliensis.,5360807,590.8,6.4,4,8,13,590.3818687,590.3818687,134,42,0,910,0,10,0,0,0,1
+Narasin,Narasin is an agent with coccidiostatic and antibacterial properties.,65452,765,6.2,4,11,12,764.5074631,764.5074631,161,54,0,1360,0,19,0,0,0,1
+Sulfameter,"Long acting sulfonamide used in leprosy, urinary, and respiratory tract infections.",5326,280.31,0.4,2,7,4,280.0630114,280.0630114,116,19,0,368,0,0,0,0,0,1
+Temocillin,"Temocillin has been investigated in Infection, Liver Dysfunction, and Urinary Tract Infection.",171758,414.5,1.1,3,9,6,414.0555433,414.0555433,187,27,0,700,0,3,1,0,0,1
+Nigericin,"A polyether antibiotic which affects ion transport and ATPase activity in mitochondria. It is produced by Streptomyces hygroscopicus. (From Merck Index, 11th ed)",34230,725,5.5,3,11,9,724.476163,724.476163,142,51,0,1230,0,19,0,0,0,1
+Valinomycin,"A cyclododecadepsipeptide ionophore antibiotic produced by Streptomyces fulvissimus and related to the enniatins. It is composed of 3 moles each of L-valine, D-alpha-hydroxyisovaleric acid, D-valine, and L-lactic acid linked alternately...",3000706,1111.3,9.1,6,18,9,1110.63116,1110.63116,332,78,0,1910,0,12,0,0,0,1
+Mafenide,An antimicrobial topical agent indicated for use as an adjunctive treatment to control bacterial infection when used under moist dressings over meshed autografts on excised burn wounds.,3998,186.23,-0.7,2,4,2,186.0462987,186.0462987,94.6,12,0,224,0,0,0,0,0,1
+Doxycycline,A tetracycline antibiotic used to treat a wide variety of bacterial infections.,54671203,444.4,-0.7,6,9,2,444.1532657,444.1532657,182,32,0,956,0,6,0,0,0,1
+Lymecycline,A tetracycline antibiotic used for the treatment of acne vulgaris and other susceptible infections.,54707177,602.6,-4.4,9,13,10,602.2587934,602.2587934,243,43,0,1230,0,6,0,0,0,1
+Tigecycline,A glycylcycline antibiotic used to treat a number of susceptible bacterial infections.,54686904,585.6,1.1,7,11,7,585.2798632,585.2798632,206,42,0,1240,0,4,0,0,0,1
+Demeclocycline,A tetracycline antibiotic used to treat a wide variety of susceptible bacterial infections.,54680690,464.9,0.7,6,9,2,464.0986433,464.0986433,182,32,0,961,0,5,0,0,0,1
+Metacycline,For the treatment of acute bacterial exacerbations of chronic bronchitis,54675785,442.4,0.3,6,9,2,442.1376157,442.1376157,182,32,0,998,0,5,0,0,0,1
+Rolitetracycline,A broad-spectrum tetracycline antibiotic used in cases needing high concentrations or when oral administration is impractical.,54682938,527.6,-0.9,6,10,4,527.226765,527.226765,171,38,0,1110,0,5,0,0,0,1
+Penimepicycline,"Penimepicycline is a tetracycline-class antibiotic. It is mentioned on List A produced by the Government of Canada, which is a list of antimicrobial active pharmaceutical ingredients . In the classification...",54686187,937, None ,9,18,11,936.3575217,936.3575217,316,66,0,1740,0,8,0,0,0,2
+Tedizolid,An oxazolidinone class antibiotic that inhibits bacterial protein synthesis and is proven to be effective in the treatment of certain Gram-positive bacterial infections.,11234049,370.3,1.4,1,8,4,370.1189665,370.1189665,106,27,0,543,0,1,0,0,0,1
+Rifamycin,An antibacterial used to treat traveler's diarrhea.,6324616,697.8,4.9,6,12,3,697.309826,697.309826,201,50,0,1330,0,9,0,3,0,1
+Ceftolozane,"A cephalosporin antibiotic used to treat complicated intra-abdominal infections in combination with metronidazole, complicated urinary tract infections, and hospital-acquired pneumonia.",53234134,666.7,-3.2,7,16,11,666.1750983,666.1750983,356,45,0,1280,0,2,0,1,0,1
+Silver cation,Not Annotated,104755,107.868, None ,0,0,0,106.90509,106.90509,0,1,1,0,0,0,0,0,0,1
+Acetyl sulfisoxazole,"Acute, recurrent or chronic urinary tract infections (primarily pyelonephritis, pyelitis and cystitis) due to susceptible organisms (usually Escherichia coli, Klebsiella-Enterobacter, staphylococcus, Proteus mirabilis and, less frequently, Proteus vulgaris) in the...",6662,309.34,1.3,1,6,3,309.0783272,309.0783272,115,21,0,482,0,0,0,0,0,1
+Delafloxacin,A fluoroquinolone antibiotic used to treat skin and skin structure infections.,487101,440.8,2.7,3,11,3,440.0499171,440.0499171,120,30,0,755,0,0,0,0,0,1
+Pirlimycin,"Pirlimycin hydrochloride is an antibiotic belonging to the lincosamide class. Often marketed as Pirsue, this drug is used to treat mastitis in cattle.",157385,411,1.7,5,7,6,410.164221,410.164221,136,26,0,474,0,9,0,0,0,1
+Clomocycline,"For the treatment and management of Brucellosis, mycoplasma infection, acne vulgaris, chlamydial infection;Chronic bronchitis",54680675,508.9,-1.5,7,10,3,508.1248581,508.1248581,188,35,0,1040,0,5,0,0,0,1
+Sarecycline,A tetracycline antibiotic used to treat inflammatory lesions of non-nodular moderate to severe acne vulgaris.,54681908,487.5,1.1,5,10,5,487.1954649,487.1954649,174,35,0,1010,0,4,0,0,0,1
+Omadacycline,A tetracycline antibiotic used to treat community acquired bacterial pneumonia.,54697325,556.6,3,6,10,7,556.2896996,556.2896996,177,40,0,1140,0,4,0,0,0,1
+Radezolid,"Radezolid has been used in trials studying the treatment of Abscess, Bacterial Skin Diseases, Streptococcal Infections, Infectious Skin Diseases, and Staphylococcal Skin Infections, among others.",11224409,438.5,1.1,3,7,8,438.1815668,438.1815668,112,32,0,647,0,1,0,0,0,1
+Meclocycline,Currently under investigation for the topical treatment of ulcerative oral mucositis,54676539,476.9,0.9,6,9,2,476.0986433,476.0986433,182,33,0,1040,0,5,0,0,0,1
+Cefamandole nafate,Not Annotated,23665731,512.5, None ,1,11,9,512.0548689,512.0548689,210,34,0,844,0,3,0,0,0,2
+Ceftobiprole medocaril,Ceftobiprole medocaril is a ceftobiprole prodrug.,135413544,690.7,0.4,4,17,9,690.116246,690.116246,310,47,0,1560,0,3,0,2,0,1
+Polymyxin B,A polymyxin antibiotic used to treat a wide variety of infections in the body.,49800004,1203.5,-2.5,18,18,29,1202.749927,1202.749927,491,85,0,2150,0,12,1,0,0,1
+Eravacycline,A tetracycline antibiotic used to treat complicated intra-abdominal infections.,54726192,558.6,1,6,11,5,558.2125921,558.2125921,194,40,0,1200,0,4,0,0,0,1
+25-desacetylrifapentine,25-desacetylrifapentine is under investigation in clinical trial NCT00023387 (TBTC Study 25PK: Intensive Pharmacokinetic Study of Three Doses of Rifapentine and 25-Desacetyl Rifapentine).,137117239,835,6.2,7,14,4,834.4415088,834.4415088,214,60,0,1610,0,9,0,4,0,1
+Pheneticillin,Pheneticillin (or phenethicillin) is a penicillin antibiotic which is approved for use internationally.,272833,364.4,2.2,2,6,5,364.1092929,364.1092929,121,25,0,575,0,3,1,0,0,1
+Hetacillin,Hetacillin is a beta-lactam antibiotic prodrug used to treat bacterial infections. In the body it gets converted to ampicillin.,443387,389.5,-0.6,2,6,3,389.1409274,389.1409274,115,27,0,688,0,4,0,0,0,1
+Clometocillin,Not Annotated,71807,433.3,2.7,2,6,5,432.0313482,432.0313482,121,27,0,649,0,3,1,0,0,1
+Mycophenolate mofetil,"An inosine monophosphate dehydrogenase inhibitor used to prevent the rejection of kidney, heart, or liver transplants.",5281078,433.5,3.2,1,8,10,433.2100523,433.2100523,94.5,31,0,646,0,0,0,1,0,1
+Nitrofurantoin,An antibiotic used to treat urinary tract infections.,6604200,238.16,-0.5,1,6,2,238.0338193,238.0338193,121,17,0,390,0,0,0,1,0,1
+Tinidazole,"A nitroimidazole used to treat trichomoniasis, giardiasis, amebiasis, and bacterial vaginosis.",5479,247.27,-0.4,0,5,4,247.0626771,247.0626771,106,16,0,345,0,0,0,0,0,1
+Mycophenolic acid,An immunosuppressant used to prevent organ transplant rejections.,446541,320.3,3.2,2,6,6,320.1259884,320.1259884,93.1,23,0,486,0,0,0,1,0,1
+Fosmidomycin,Not Available,572,183.1,-2.2,3,5,4,183.0296594,183.0296594,98.1,11,0,166,0,0,0,0,0,1
+Acetic acid,An antimicrobial agent used to treat susceptible infections of the external auditory canal.,176,60.05,-0.2,1,2,0,60.02112937,60.02112937,37.3,4,0,31,0,0,0,0,0,1
+Streptolydigin,Streptolydigin is an antibiotic isolated from culture filtrates of Streptomyces lydicus. It is active against gram-postive bacteria except micrococci.,54708748,600.7,3.1,3,9,7,600.304681,600.304681,147,43,0,1290,0,11,0,3,0,1
+Methenamine,A urinary tract antiseptic and antibacterial drug used for the prophylaxis and treatment of frequently recurring urinary tract infections requiring a long-term therapy.,4101,140.19,0.3,0,4,0,140.1061964,140.1061964,13,10,0,84.8,0,0,0,0,0,1
+Enrofloxacin,Enrofloxacin is an antibiotic agent from the fluoroquinolone family produced by the Bayer Corporation. Enrofloxacin is approved by the FDA for its veterinary use. Due to the identification of fluoroquinolone-resistant...,71188,359.4,-0.2,1,7,4,359.1645197,359.1645197,64.1,26,0,613,0,0,0,0,0,1
+Tulathromycin A,Tulathromycin is a macrolide antibiotic used to treat bovine respiratory disease in cattle and swine respiratory disease in pigs. It is marketed by Pfizer Inc. under the tradename Draxxin.,9832301,806.1,3.8,7,15,11,805.566375,805.566375,201,56,0,1240,0,18,0,0,0,1
+LCB01-0371,"Lcb01 0371 is under investigation in clinical trial NCT01554995 (A Clinical Study, Randomized, Double-blind, Placebo-controlled, Single Dose Study).",44205191,308.31,0.6,1,6,3,308.1284686,308.1284686,68.6,22,0,450,0,1,0,0,0,1
+Malacidin A,Malacidin A is being investigated for its antibiotic action and has potential for use as an antibacterial agent in the future .,132282518,1249.4,-2.5,16,21,22,1248.623783,1248.623783,507,88,0,2630,0,10,4,2,0,1
+Malacidin B,Malacidin B is being investigated for its antibiotic action and has potential for use as an antibacterial agent in the future .,132282519,1263.4,-2,16,21,23,1262.639433,1262.639433,507,89,0,2650,0,10,5,2,0,1
+Murepavadin,Murepavadin is under investigation in clinical trial NCT02110459 (Pharmacokinetics and Safety of POL7080 in Patients With Renal Impairment).,91824766,1553.8,-4.1,22,22,21,1552.862666,1552.862666,618,111,0,3200,0,16,0,0,0,1
+Umirolimus,Not Annotated,11158972,986.3,6.8,2,14,11,985.6126565,985.6126565,194,70,0,1840,0,15,0,4,0,1
+Echinomycin,Echinomycin is a cytotoxic polypeptide quinoxaline antibiotic isolated from Streptomyces echinatus that binds to DNA and inhibits RNA synthesis.,3197,1101.3,2.7,4,18,7,1100.420808,1100.420808,352,77,0,2200,0,0,9,0,0,1
+Cefiderocol,A cephalosporin antibiotic used in complicated urinary tract infections.,77843966,752.2,1,6,15,12,751.1497104,751.1497104,310,50,0,1440,0,2,0,1,0,1
+Amphomycin,Not Annotated,91663250,1290.4,-2.9,15,21,38,1289.650332,1289.650332,507,91,0,2710,0,12,1,1,0,1
+Pradofloxacin,"Pradofloxacin is a 3rd generation fluoroquinolone antibiotic developed by Bayer HealthCare AG, Animal Health GmBH. It was approved by the European Commission in April 2011 for bacterial infections in dogs...",9802884,396.4,0.4,2,8,3,396.1597687,396.1597687,96.7,29,0,803,0,2,0,0,0,1
+Ala-geninthiocin,"Ala-geninthiocin is a novel thiopeptide antibacterial compound derived from marine Streptomyces species. It has exhibited potent in vitro activity against gram-positive bacteria including Staphylococcus aureus, Bacillus subtilis, Mycobacterium smegmatis,",145720674,1116.1,2,11,20,7,1115.330413,1115.330413,457,80,0,2650,0,3,0,0,1,1
+sulfabenzamide ,,5319,276.31,0.7,2,4,3,276.0568634,276.0568634,97.6,19,0,402,0,0,0,0,0,1
+Sulfadimethoxine,,5323,310.33,1.6,2,8,5,310.0735761,310.0735761,125,21,0,420,0,0,0,0,0,1
+sulfadimidine,,5327,278.33,0.3,2,6,3,278.0837469,278.0837469,106,19,0,377,0,0,0,0,0,1
+Sulfamethizole,,5328,270.3,0.5,2,7,3,270.0245179,270.0245179,135,17,0,349,0,0,0,0,0,1
+sulfaphenazole,,5335,314.4,1.5,2,5,4,314.0837469,314.0837469,98.4,22,0,451,0,0,0,0,0,1
+Sulfapyridine,,5336,249.29,0,2,5,3,249.0571978,249.0571978,93.5,17,0,331,0,0,0,0,0,1
+Sulfasalazine,,5339,398.4,-0.7,3,9,6,398.0684907,398.0684907,150,28,0,657,0,0,0,0,0,1
+Cephalothin,,6024,396.4,-0.4,2,8,7,396.0449786,396.0449786,167,26,0,680,0,2,0,0,0,1
+sulfachloropyridazine ,,6634,284.72,1,2,6,3,284.0134744,284.0134744,106,18,0,365,0,0,0,0,0,1
+Arsphenamine,,8774,439, None ,6,4,2,437.88642,437.88642,92.5,20,0,276,0,0,0,0,0,3
+benzathine penicillin,,15232,909.1, None ,6,12,15,908.3601051,908.3601051,248,64,0,701,0,6,0,0,0,3
+sulfadoxine ,,17134,310.33,0.7,2,8,5,310.0735761,310.0735761,125,21,0,420,0,0,0,0,0,1
+sulfisoxazole diolamine,,20287,372.4, None ,5,9,7,372.1467411,372.1467411,159,25,0,402,0,0,0,0,0,2
+penicillin G procaine,,22502,588.7, None ,4,10,11,588.2617708,588.2617708,169,41,0,752,0,3,0,0,0,3
+ornidazole,,28061,219.62,0.6,1,4,3,219.0410689,219.0410689,83.9,14,0,211,0,0,1,0,0,1
+salicylhydroxamic acid ,,66644,153.14,0.9,3,3,1,153.0425931,153.0425931,69.6,11,0,149,0,0,0,0,0,1
+prontosil,,66895,291.33,0.9,3,7,3,291.0789959,291.0789959,145,20,0,439,0,0,0,0,0,1
+brodimoprim,,68760,339.19,2,2,6,4,338.03784,338.03784,96.3,20,0,296,0,0,0,0,0,1
+sulfaperin,,68933,264.31,0.3,2,6,3,264.0680968,264.0680968,106,18,0,352,0,0,0,0,0,1
+panipenem,,72015,339.4,0,3,6,5,339.1252773,339.1252773,130,23,0,606,0,4,0,0,0,1
+cefotiam hexetil dihydrochloride,,175647,768.8, None ,4,16,16,767.1511635,767.1511635,276,48,0,1160,0,2,1,0,0,3
+sulfamazone,,187764,560.6,1.6,3,12,9,560.1147895,560.1147895,188,38,0,1090,0,0,1,0,0,1
+iclaprim,,213043,354.4,2.5,2,7,5,354.1691906,354.1691906,106,26,0,515,0,0,1,0,0,1
+Posizolid,,213049,465.4,0.5,2,10,7,465.1347564,465.1347564,126,33,0,745,0,2,0,0,0,1
+Trimethoprim-Sulfamethoxazole ,,358641,543.6, None ,4,13,8,543.1900029,543.1900029,212,38,0,653,0,0,0,0,0,2
+paromomycin sulfate,,441375,713.7, None ,15,23,9,713.2636809,713.2636809,430,47,0,952,0,19,0,0,0,2
+humulone ,,442911,362.5,4.2,3,5,7,362.2093241,362.2093241,94.8,26,0,711,0,1,0,0,0,1
+Carbapenems,,443582,349.4,2.8,2,4,4,349.1314081,349.1314081,77.8,26,0,614,0,0,3,0,0,1
+sulfathiourea ,,3000579,231.3,-0.7,3,4,2,231.0136189,231.0136189,139,14,0,301,0,0,0,0,0,1
+Aminoglycosides,,4884909,462.6,3.1,1,7,9,462.1395477,462.1395477,141,31,0,705,0,0,1,0,0,1
+sulfadiazinate,,5062223,249.27,-0.1,1,6,3,249.0446217,249.0446217,95.3,17,-1,327,0,0,0,0,0,1
+Geldanamycin,,5288382,560.6,2,3,9,5,560.2733809,560.2733809,164,40,0,1150,0,6,0,3,0,1
+Herbimycin,,5311102,574.7,1.8,2,9,6,574.2890309,574.2890309,153,41,0,1150,0,7,0,3,0,1
+Furazolidone,,5323714,225.16,-0.1,0,6,2,225.0385703,225.0385703,101,16,0,326,0,0,0,1,0,1
+nitrofurazone,,5447130,198.14,0.2,2,5,2,198.0389047,198.0389047,126,14,0,261,0,0,0,1,0,1
+cefuzonam,,6336505,513.6,-0.2,3,14,8,513.0017513,513.0017513,280,32,0,859,0,2,0,1,0,1
+carumonam,,6540466,466.4,-1.4,5,14,10,466.021283,466.021283,291,30,0,858,0,2,0,1,0,1
+Platensimycin,,6857724,441.5,2.3,4,7,5,441.1787522,441.1787522,133,32,0,888,0,6,0,0,0,1
+furagin ,,6870646,264.19,0.5,1,6,3,264.0494694,264.0494694,121,19,0,455,0,0,0,2,0,1
+furaltadone ,,9553856,324.29,0.8,0,8,4,324.1069843,324.1069843,113,23,0,476,0,0,1,1,0,1
+nifurtoinol,,9571062,268.18,-0.3,1,7,3,268.044384,268.044384,132,19,0,433,0,0,0,1,0,1
+avibactam,,9835049,265.25,-1.8,2,6,3,265.0368563,265.0368563,139,17,0,457,0,2,0,0,0,1
+xibornol,,11777299,258.4,5.6,1,1,1,258.1983655,258.1983655,20.2,19,0,361,0,0,3,0,0,1
+isepamycin,,15293840,569.6,-6.9,12,16,9,569.2908218,569.2908218,298,39,0,817,0,14,1,0,0,1
+ristocetin ,,16204749,2067.9,-6.5,29,46,17,2067.664944,2066.661589,816,147,0,4410,0,36,1,0,0,1
+potassium clavulanate ,,23665591,237.25, None ,1,5,2,237.0039539,237.0039539,89.9,15,0,329,0,2,0,1,0,2
+Augmentin,,23665637,602.7, None ,5,12,6,602.1084958,602.1084958,248,40,0,919,0,6,0,1,0,3
+Neosalvarsan,,23690446,466.15, None ,4,7,5,465.89256,465.89256,138,23,0,421,0,0,0,0,0,2
+avibactam sodium,,24944097,287.23, None ,1,6,3,287.0188005,287.0188005,141,18,0,462,0,2,0,0,0,2
+(S)-iclaprim,,44141864,354.4,2.5,2,7,5,354.1691906,354.1691906,106,26,0,515,0,1,0,0,0,1

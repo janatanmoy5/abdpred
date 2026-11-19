@@ -1,0 +1,41 @@
+
+R version 4.0.4 (2021-02-15) -- "Lost Library Book"
+Copyright (C) 2021 The R Foundation for Statistical Computing
+Platform: x86_64-pc-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+[Previously saved workspace restored]
+
+> args <- commandArgs(trailingOnly = TRUE)
+> action <- args[1]
+> 
+> #getwd()
+> #library("ChemmineR")
+> #apold1 <- cmp.parse("drugnew.sdf")
+> #aplist1 <- apold1[[1]]; names(aplist1) <- apold1[[2]]
+> #apset1 <- as(aplist1, "APset")
+> #save(apset1, file = "apset1.rda", compress = TRUE)
+> 
+> #apold2 <- cmp.parse("action.sdf")
+> #aplist2 <- apold2[[1]]; names(aplist2) <- apold2[[2]]
+> #apset2 <- as(aplist2, "APset")
+> #save(apset2, file = "apset2.rda", compress = TRUE)
+> #load("apset1.rda")
+> #load("apset2.rda")
+> #x<-cmp.search(apset1, apset2, type=3, cutoff = 0.3)
+> #write.csv(x, file = "output.csv")
+> 
+> proc.time()
+   user  system elapsed 
+  0.143   0.025   0.167 
