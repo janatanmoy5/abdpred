@@ -257,6 +257,23 @@ def result_html(result):
     reference_matches = result["similarity_matches"]
     close_matches = [item for item in reference_matches if item["similarity"] > 0.60]
 
+    stereo_notice = ""
+    if result["descriptors"]["uasc"] or result["descriptors"]["ubsc"]:
+        candidates = [
+            item for item in reference_matches
+            if item["similarity"] == 1 and item["cid"] != cid
+        ]
+        buttons = "".join(
+            f'<button name="cid" value="{item["cid"]}">Predict {escape(item["name"])} '
+            f'(CID {item["cid"]})</button> ' for item in candidates
+        )
+        candidate_form = f'<form method="post" action="/">{buttons}</form>' if buttons else ""
+        stereo_notice = (
+            "<p>This PubChem record contains undefined stereochemistry. ABDpred uses "
+            "stereochemistry counts as model inputs. A 2D fingerprint match of 1.000 "
+            "can occur for different stereochemical records.</p>" + candidate_form
+        )
+
     def similarity_rows(matches):
         return "".join(
             f'<tr><td>{escape(item["name"])}</td>'
@@ -287,6 +304,7 @@ For Pfizer 3/75, “Followed” means the risk flag is triggered.</p>
 <table><thead><tr><th>Rule</th><th>Values used</th><th>Criteria</th><th>Result</th></tr></thead>
 <tbody>{''.join(checks)}</tbody></table></section>
 <section><h2>Predictions by classifier</h2>
+{stereo_notice}
 <table><thead><tr><th>Classifier</th>{score_header}</tr></thead><tbody>{rows}</tbody></table></section>
 <section><h2>Consensus prediction</h2>
 <table><thead><tr><th>Method</th>{score_header}</tr></thead><tbody>{consensus}</tbody></table></section>
