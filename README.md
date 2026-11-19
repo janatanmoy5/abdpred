@@ -20,9 +20,9 @@ That page called the model scripts, drug-likeness checks and similarity search.
 not contain `proces.php`. The Python app uses the original model artifacts
 and reference fingerprints copied from that archive.
 
-In the web app, choose **PubChem CID**, **Chemical name or synonym**, or
-**SMILES** under **Search by**. For example, enter CID `5904` or the synonym
-`benzylpenicillin`. Name and SMILES lookups resolve to PubChem CIDs before
+The web app defaults to **Chemical name or synonym** and starts with
+`benzylpenicillin`. Click **Predict** to try it. You can also choose
+**PubChem CID** or **SMILES** under **Search by** and enter your own input. Name and SMILES lookups resolve to PubChem CIDs before
 prediction. If PubChem returns multiple records, enter the CID you intend to use.
 
 ## Cite ABDpred

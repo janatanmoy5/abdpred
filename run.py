@@ -406,10 +406,10 @@ class PredictionPage(BaseHTTPRequestHandler):
             traceback.print_exc()
             self.show_page('<p role="alert">Prediction failed. See the terminal for details.</p>', 500)
 
-    def show_page(self, content="", status=200, query="", search_type="cid"):
+    def show_page(self, content="", status=200, query="benzylpenicillin", search_type="name"):
         search_options = "".join(
             f'<option value="{value}"{" selected" if search_type == value else ""}>{label}</option>'
-            for value, label in (("cid", "PubChem CID"), ("name", "Chemical name or synonym"),
+            for value, label in (("name", "Chemical name or synonym"), ("cid", "PubChem CID"),
                                  ("smiles", "SMILES"))
         )
         page = f"""<!doctype html>

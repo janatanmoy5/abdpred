@@ -37,6 +37,8 @@ jobs:
           curl --fail --silent --show-error http://127.0.0.1:8765/ -o page.html
           grep -q 'name="query"' page.html
           grep -q 'value="smiles"' page.html
+          grep -q 'value="name" selected' page.html
+          grep -q 'value="benzylpenicillin"' page.html
           status=$(curl --silent --output error.html --write-out '%{http_code}' \
             --data 'cid=invalid' http://127.0.0.1:8765/)
           test "$status" = 400
