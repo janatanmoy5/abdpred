@@ -158,17 +158,10 @@ COMPARISON_LABELS = {le: "≤", lt: "<", gt: ">"}
 
 
 def druglikeness(properties):
-    results = {}
-    for name, criteria in RULES.items():
-        checks = [
-            None if properties[key] is None else compare(properties[key], limit)
-            for key, compare, limit in criteria
-        ]
-        if False in checks:
-            results[name] = False
-        else:
-            results[name] = None if None in checks else True
-    return results
+    return {
+        name: all(compare(properties[key], limit) for key, compare, limit in criteria)
+        for name, criteria in RULES.items()
+    }
 
 
 def predict_cid(cid):
@@ -186,10 +179,7 @@ def predict_cid(cid):
     compound = Compound(record)
     pubchem_values = {name: getattr(compound, attr) for name, attr in FEATURES.items()}
     features = descriptors(pubchem_values)
-    properties = {
-        key: features[key] if pubchem_values[key] is not None else None
-        for key in PROPERTY_LABELS
-    }
+    properties = {key: features[key] for key in PROPERTY_LABELS}
     try:
         with urlopen(f"{PUBCHEM}/rest/pug/compound/cid/{cid}/synonyms/JSON", timeout=5) as response:
             entries = json.load(response).get("InformationList", {}).get("Information", [])
@@ -206,6 +196,7 @@ def predict_cid(cid):
         "descriptors": features,
         **predict(features),
         "physicochemical_properties": properties,
+        "xlogp_imputed": pubchem_values["xlogp3"] is None,
         "druglikeness": druglikeness(properties),
         "similarity_matches": similarity_matches(compound.fingerprint),
     }
@@ -241,7 +232,7 @@ def result_html(result):
     rows = "".join(prediction_row(name, item) for name, item in result["models"].items())
     consensus = prediction_row("Soft vote", result["consensus"])
     checks = []
-    verdict = {True: "Followed", False: "Not Followed", None: "Unavailable"}
+    verdict = {True: "Followed", False: "Not Followed"}
     properties = result["physicochemical_properties"]
     for name, criteria in RULES.items():
         passed = result["druglikeness"][name]
@@ -250,7 +241,8 @@ def result_html(result):
         for key, compare, limit in criteria:
             label, unit = PROPERTY_LABELS[key]
             value = properties[key]
-            observed.append(f"{label} {value:g}{unit}" if value is not None else f"{label} unavailable")
+            fallback = " (fallback)" if key == "xlogp3" and result["xlogp_imputed"] else ""
+            observed.append(f"{label} {value:g}{unit}{fallback}")
             thresholds.append(f"{label} {COMPARISON_LABELS[compare]} {limit:g}{unit}")
         checks.append(
             f"<tr><th scope='row'>{name}</th><td>{'<br>'.join(observed)}</td>"
@@ -290,9 +282,9 @@ def result_html(result):
 <details><summary>IUPAC name and model descriptors</summary><p>{name}</p><table>{descriptor_rows}</table></details>
 </section>
 <section><h2>Drug-likeness and bioavailability profile</h2>
-<p>Screening rules use PubChem properties. XLogP is the logP estimate used for these thresholds.
+<p>Screening rules use the numeric model descriptors. ABDpred uses XLogP 1.125 when PubChem has no estimate.
 For Pfizer 3/75, “Followed” means the risk flag is triggered.</p>
-<table><thead><tr><th>Rule</th><th>PubChem values</th><th>Criteria</th><th>Result</th></tr></thead>
+<table><thead><tr><th>Rule</th><th>Values used</th><th>Criteria</th><th>Result</th></tr></thead>
 <tbody>{''.join(checks)}</tbody></table></section>
 <section><h2>Predictions by classifier</h2>
 <table><thead><tr><th>Classifier</th>{score_header}</tr></thead><tbody>{rows}</tbody></table></section>
