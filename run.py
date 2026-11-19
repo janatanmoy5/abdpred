@@ -7,6 +7,7 @@ from html import escape
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 import json
 import math
+from operator import gt, le, lt
 import os
 import pickle
 from pathlib import Path
@@ -139,15 +140,31 @@ def similarity_matches(fingerprint):
     return sorted(matches, key=lambda item: item["similarity"], reverse=True)
 
 
-def druglikeness(features, xlogp):
-    mw, donors, acceptors = (features[name] for name in ("mw", "hbdc", "hdac"))
-    tpsa, bonds = (features[name] for name in ("tpsa", "rbc"))
-    return {
-        "Lipinski": None if xlogp is None else mw < 500 and donors <= 5 and acceptors <= 10 and xlogp <= 5,
-        "Pfizer 3/75 risk flag": None if xlogp is None else xlogp >= 3 and tpsa <= 75,
-        "Veber": tpsa <= 140 and bonds <= 10,
-        "Egan": None if xlogp is None else tpsa <= 131.6 and xlogp <= 5.88,
-    }
+RULES = {
+    "Lipinski": (("mw", le, 500), ("hbdc", le, 5), ("hdac", le, 10), ("xlogp3", le, 5)),
+    "Pfizer 3/75 risk flag": (("xlogp3", gt, 3), ("tpsa", lt, 75)),
+    "Veber": (("tpsa", le, 140), ("rbc", le, 10)),
+    "Egan": (("tpsa", le, 131.6), ("xlogp3", le, 5.88)),
+}
+PROPERTY_LABELS = {
+    "mw": ("Molecular weight", " g/mol"),
+    "hbdc": ("H-bond donors", ""),
+    "hdac": ("H-bond acceptors", ""),
+    "xlogp3": ("XLogP", ""),
+    "tpsa": ("TPSA", " Å²"),
+    "rbc": ("Rotatable bonds", ""),
+}
+COMPARISON_LABELS = {le: "≤", lt: "<", gt: ">"}
+
+
+def druglikeness(properties):
+    results = {}
+    for name, criteria in RULES.items():
+        values = [properties[key] for key, _, _ in criteria]
+        results[name] = None if any(value is None for value in values) else all(
+            compare(value, limit) for value, (_, compare, limit) in zip(values, criteria)
+        )
+    return results
 
 
 def predict_cid(cid):
@@ -163,7 +180,12 @@ def predict_cid(cid):
             raise ValueError(f"PubChem CID {cid} was not found.") from None
         raise
     compound = Compound(record)
-    features = descriptors({name: getattr(compound, attr) for name, attr in FEATURES.items()})
+    pubchem_values = {name: getattr(compound, attr) for name, attr in FEATURES.items()}
+    features = descriptors(pubchem_values)
+    properties = {
+        key: features[key] if pubchem_values[key] is not None else None
+        for key in PROPERTY_LABELS
+    }
     try:
         with urlopen(f"{PUBCHEM}/rest/pug/compound/cid/{cid}/synonyms/JSON", timeout=5) as response:
             entries = json.load(response).get("InformationList", {}).get("Information", [])
@@ -179,7 +201,8 @@ def predict_cid(cid):
         "iupac_name": compound.iupac_name,
         "descriptors": features,
         **predict(features),
-        "druglikeness": druglikeness(features, compound.xlogp),
+        "physicochemical_properties": properties,
+        "druglikeness": druglikeness(properties),
         "similarity_matches": similarity_matches(compound.fingerprint),
     }
 
@@ -213,11 +236,24 @@ def result_html(result):
 
     rows = "".join(prediction_row(name, item) for name, item in result["models"].items())
     consensus = prediction_row("Soft vote", result["consensus"])
-    verdict = {True: "Yes", False: "No", None: "Unavailable"}
-    checks = "".join(
-        f"<tr><th scope='row'>{name}</th><td>{verdict[value]}</td></tr>"
-        for name, value in result["druglikeness"].items()
-    )
+    checks = []
+    properties = result["physicochemical_properties"]
+    for name, criteria in RULES.items():
+        passed = result["druglikeness"][name]
+        verdict = {True: "Meets criteria", False: "Does not meet criteria", None: "Unavailable"}
+        if name == "Pfizer 3/75 risk flag":
+            verdict = {True: "Flagged", False: "Not flagged", None: "Unavailable"}
+        observed = []
+        thresholds = []
+        for key, compare, limit in criteria:
+            label, unit = PROPERTY_LABELS[key]
+            value = properties[key]
+            observed.append(f"{label} {value:g}{unit}" if value is not None else f"{label} unavailable")
+            thresholds.append(f"{label} {COMPARISON_LABELS[compare]} {limit:g}{unit}")
+        checks.append(
+            f"<tr><th scope='row'>{name}</th><td>{'<br>'.join(observed)}</td>"
+            f"<td>{'<br>'.join(escape(text) for text in thresholds)}</td><td>{verdict[passed]}</td></tr>"
+        )
     synonyms = "".join(f"<li>{escape(name)}</li>" for name in result["synonyms"][:8])
     synonyms = f"<ul>{synonyms}</ul>" if synonyms else "Unavailable"
     descriptor_rows = "".join(
@@ -252,7 +288,9 @@ def result_html(result):
 <details><summary>IUPAC name and model descriptors</summary><p>{name}</p><table>{descriptor_rows}</table></details>
 </section>
 <section><h2>Drug-likeness and bioavailability profile</h2>
-<table><thead><tr><th>Rule</th><th>Result</th></tr></thead><tbody>{checks}</tbody></table></section>
+<p>Screening rules use PubChem properties. XLogP is the logP estimate used for these thresholds.</p>
+<table><thead><tr><th>Rule</th><th>PubChem values</th><th>Criteria</th><th>Result</th></tr></thead>
+<tbody>{''.join(checks)}</tbody></table></section>
 <section><h2>Predictions by classifier</h2>
 <table><thead><tr><th>Classifier</th>{score_header}</tr></thead><tbody>{rows}</tbody></table></section>
 <section><h2>Consensus prediction</h2>
